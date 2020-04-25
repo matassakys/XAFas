@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <ModelEditorSettings Id="ModelEditorSettings">
+    <ModelEditorControl Id="ModelEditorControl" ShowCategories="True" />
+  </ModelEditorSettings>
+  <Views Id="Views">
+    <ListView Id="Equipment_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="Pavadinimas" SortIndex="0" SortOrder="Ascending" />
+        <ColumnInfo Id="ArtejantiPatikra" SortIndex="-1" SortOrder="None" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

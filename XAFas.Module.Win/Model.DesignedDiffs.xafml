@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel>
+    <Class Name="XAFas.Module.BusinessObjects.Equipment">
+      <OwnMembers>
+        <Member Name="Failures" LookupProperty="Pavadinimas" />
+      </OwnMembers>
+    </Class>
+    <Class Name="XAFas.Module.BusinessObjects.Failure">
+      <OwnMembers>
+        <Member Name="Equipment" LookupProperty="Pavadinimas" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="19.2.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="19.2.5.0" IsNewNode="True" />
+  </SchemaModules>
+</Application>
