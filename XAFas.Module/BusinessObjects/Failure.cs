@@ -46,8 +46,7 @@ namespace XAFas.Module.BusinessObjects
         {
             Urgent,
             Average,
-            Low,
-            test
+            Low
         }
 
         private string _status;
