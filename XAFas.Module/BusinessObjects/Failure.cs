@@ -25,9 +25,27 @@ namespace XAFas.Module.BusinessObjects
         public override void AfterConstruction()
         {
             base.AfterConstruction();
-            Status = "Not fixed";
+            Status = StatusEnum.NotFixed;
             FailureDate = DateTime.Now;
         }
+
+        protected override void OnSaving()
+        {
+            if (this.Equipment != null)
+            {
+                if (this.Status == StatusEnum.NotFixed && this.Equipment.Status == Equipment.StatusEnum.Operating)
+                {
+                    this.Equipment.Status = Equipment.StatusEnum.Broken;
+                }
+                else if (this.Status == StatusEnum.Fixing && this.Equipment.Status != Equipment.StatusEnum.Maintenance)
+                {
+                    this.Equipment.Status = Equipment.StatusEnum.Maintenance;
+                }
+            }
+                
+            base.OnSaving();
+        }
+
         private string _description;
         public string Description
         {
@@ -49,11 +67,17 @@ namespace XAFas.Module.BusinessObjects
             Low
         }
 
-        private string _status;
-        public string Status
+        private StatusEnum _status;
+        public StatusEnum Status
         {
             get { return _status; }
             set { SetPropertyValue(nameof(Status), ref _status, value); }
+        }
+        public enum StatusEnum
+        {
+            NotFixed,
+            Fixing,
+            Closed
         }
 
         private DateTime _failureDate;

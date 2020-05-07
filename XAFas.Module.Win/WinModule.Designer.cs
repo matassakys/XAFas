@@ -1,4 +1,9 @@
-﻿namespace XAFas.Module.Win {
+﻿using DevExpress.ExpressApp;
+using DevExpress.ExpressApp.Updating;
+using System;
+using System.Collections.Generic;
+
+namespace XAFas.Module.Win {
     partial class XAFasWindowsFormsModule {
         /// <summary> 
         /// Required designer variable.
@@ -15,7 +20,6 @@
             }
             base.Dispose(disposing);
         }
-
         #region Component Designer generated code
 
         /// <summary> 

@@ -64,3 +64,11 @@ C:\Users\Matas\source\repos\XAFas\XAFas.Win\obj\Debug\XAFas.Win.csproj.CopyCompl
 C:\Users\Matas\source\repos\XAFas\XAFas.Win\obj\Debug\XAFas.Win.exe
 C:\Users\Matas\source\repos\XAFas\XAFas.Win\obj\Debug\XAFas.Win.pdb
 C:\Users\Matas\source\repos\XAFas\XAFas.Win\obj\Debug\XAFas.Win.csproj.CoreCompileInputs.cache
+C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\DevExpress.ExpressApp.Security.v19.2.dll
+C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\DevExpress.ExpressApp.Security.v19.2.xml
+C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\de\DevExpress.ExpressApp.Security.v19.2.resources.dll
+C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\es\DevExpress.ExpressApp.Security.v19.2.resources.dll
+C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\ja\DevExpress.ExpressApp.Security.v19.2.resources.dll
+C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\ru\DevExpress.ExpressApp.Security.v19.2.resources.dll
+C:\Users\Matas\source\repos\XAFas\XAFas.Win\obj\Debug\XAFas.Win.XAFasWindowsFormsApplication.resources
+C:\Users\Matas\source\repos\XAFas\XAFas.Win\obj\Debug\XAFas.Win.exe.licenses

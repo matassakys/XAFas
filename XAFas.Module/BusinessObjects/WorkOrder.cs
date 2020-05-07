@@ -25,7 +25,7 @@ namespace XAFas.Module.BusinessObjects
         public override void AfterConstruction()
         {
             base.AfterConstruction();
-            // Place your initialization code here (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument112834.aspx).
+            this.Status = StatusEnum.NotStarted;
         }
 
         private TypeEnum _type;
@@ -40,6 +40,20 @@ namespace XAFas.Module.BusinessObjects
             Inspection,
             Maintenance
         }
+
+        private StatusEnum _status;
+        public StatusEnum Status
+        {
+            get { return _status; }
+            set { SetPropertyValue(nameof(Status), ref _status, value); }
+        }
+        public enum StatusEnum
+        {
+            NotStarted,
+            InProgress,
+            Ended
+        }
+
         private string _description;
         public string Description
         {

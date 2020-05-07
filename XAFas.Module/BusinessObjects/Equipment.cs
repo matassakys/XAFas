@@ -25,7 +25,7 @@ namespace XAFas.Module.BusinessObjects
         public override void AfterConstruction()
         {
             base.AfterConstruction();
-            Status = "Active";
+            Status = StatusEnum.Operating;
         }
 
         private EquipmentType _type;
@@ -48,11 +48,18 @@ namespace XAFas.Module.BusinessObjects
             set { SetPropertyValue(nameof(Description), ref _description, value); }
         }
 
-        private string _status;
-        public string Status
+        private StatusEnum _status;
+        public StatusEnum Status
         {
             get { return _status; }
             set { SetPropertyValue(nameof(Status), ref _status, value); }
+        }
+        public enum StatusEnum
+        {
+            Operating,
+            Broken,
+            Maintenance,
+            WritenOff
         }
 
         private DateTime _inspection;

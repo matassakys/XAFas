@@ -44,6 +44,7 @@
     <Reference Include="DevExpress.ExpressApp.Objects.v19.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
+    <Reference Include="DevExpress.ExpressApp.Security.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.ExpressApp.v19.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
@@ -83,10 +84,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessObjects\FixedFailure.cs" />
     <Compile Include="BusinessObjects\EquipmentType.cs" />
+    <Compile Include="BusinessObjects\FixedFailureList.cs" />
     <Compile Include="BusinessObjects\WorkOrder.cs" />
     <Compile Include="BusinessObjects\Failure.cs" />
     <Compile Include="BusinessObjects\Equipment.cs" />
+    <Compile Include="Controllers\FinishWorkController.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\FinishWorkController.Designer.cs">
+      <DependentUpon>FinishWorkController.cs</DependentUpon>
+    </Compile>
     <Compile Include="DatabaseUpdate\Updater.cs" />
     <Compile Include="Module.cs">
       <SubType>Component</SubType>
@@ -97,7 +106,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Controllers\FinishWorkController.resx">
+      <DependentUpon>FinishWorkController.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
+    <EmbeddedResource Include="Properties\licenses.licx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="BusinessObjects\ReadMe.txt" />

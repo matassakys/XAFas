@@ -113,3 +113,12 @@ C:\Users\Matas\source\repos\XAFas\XAFas.Module\obj\Debug\XAFas.Module.csproj.Cop
 C:\Users\Matas\source\repos\XAFas\XAFas.Module\obj\Debug\XAFas.Module.dll
 C:\Users\Matas\source\repos\XAFas\XAFas.Module\obj\Debug\XAFas.Module.pdb
 C:\Users\Matas\source\repos\XAFas\XAFas.Module\obj\Debug\XAFas.Module.csproj.CoreCompileInputs.cache
+C:\Users\Matas\source\repos\XAFas\XAFas.Module\bin\Debug\DevExpress.ExpressApp.Security.v19.2.dll
+C:\Users\Matas\source\repos\XAFas\XAFas.Module\bin\Debug\DevExpress.ExpressApp.Security.v19.2.xml
+C:\Users\Matas\source\repos\XAFas\XAFas.Module\bin\Debug\de\DevExpress.ExpressApp.Security.v19.2.resources.dll
+C:\Users\Matas\source\repos\XAFas\XAFas.Module\bin\Debug\es\DevExpress.ExpressApp.Security.v19.2.resources.dll
+C:\Users\Matas\source\repos\XAFas\XAFas.Module\bin\Debug\ja\DevExpress.ExpressApp.Security.v19.2.resources.dll
+C:\Users\Matas\source\repos\XAFas\XAFas.Module\bin\Debug\ru\DevExpress.ExpressApp.Security.v19.2.resources.dll
+C:\Users\Matas\source\repos\XAFas\XAFas.Module\obj\Debug\XAFas.Module.dll.licenses
+C:\Users\Matas\source\repos\XAFas\XAFas.Module\obj\Debug\XAFas.Module.Controllers.FinishWorkController.resources
+C:\Users\Matas\source\repos\XAFas\XAFas.Module\obj\Debug\XAFas.Module.csproj.GenerateResource.cache

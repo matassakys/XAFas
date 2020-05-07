@@ -176,3 +176,9 @@ C:\Users\Matas\source\repos\XAFas\XAFas.Module.Win\obj\Debug\XAFas.Module.Win.dl
 C:\Users\Matas\source\repos\XAFas\XAFas.Module.Win\obj\Debug\XAFas.Module.Win.pdb
 C:\Users\Matas\source\repos\XAFas\XAFas.Module.Win\obj\Debug\XAFas.Module.Win.dll.licenses
 C:\Users\Matas\source\repos\XAFas\XAFas.Module.Win\obj\Debug\XAFas.Module.Win.csproj.CoreCompileInputs.cache
+C:\Users\Matas\source\repos\XAFas\XAFas.Module.Win\bin\Debug\DevExpress.ExpressApp.Security.v19.2.dll
+C:\Users\Matas\source\repos\XAFas\XAFas.Module.Win\bin\Debug\DevExpress.ExpressApp.Security.v19.2.xml
+C:\Users\Matas\source\repos\XAFas\XAFas.Module.Win\bin\Debug\de\DevExpress.ExpressApp.Security.v19.2.resources.dll
+C:\Users\Matas\source\repos\XAFas\XAFas.Module.Win\bin\Debug\es\DevExpress.ExpressApp.Security.v19.2.resources.dll
+C:\Users\Matas\source\repos\XAFas\XAFas.Module.Win\bin\Debug\ja\DevExpress.ExpressApp.Security.v19.2.resources.dll
+C:\Users\Matas\source\repos\XAFas\XAFas.Module.Win\bin\Debug\ru\DevExpress.ExpressApp.Security.v19.2.resources.dll

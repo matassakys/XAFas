@@ -1,4 +1,5 @@
-﻿namespace XAFas.Module {
+﻿namespace XAFas.Module
+{
 	partial class XAFasModule {
 		/// <summary> 
 		/// Required designer variable.
@@ -15,6 +16,8 @@
 			}
 			base.Dispose(disposing);
 		}
+
+		
 
 		#region Component Designer generated code
 
