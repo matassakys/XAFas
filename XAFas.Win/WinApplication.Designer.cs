@@ -25,12 +25,13 @@
         private void InitializeComponent() {
             this.module1 = new DevExpress.ExpressApp.SystemModule.SystemModule();
             this.module2 = new DevExpress.ExpressApp.Win.SystemModule.SystemWindowsFormsModule();
+            this.objectsModule = new DevExpress.ExpressApp.Objects.BusinessClassLibraryCustomizationModule();
+            this.securityModule1 = new DevExpress.ExpressApp.Security.SecurityModule();
             this.module3 = new XAFas.Module.XAFasModule();
             this.module4 = new XAFas.Module.Win.XAFasWindowsFormsModule();
-            this.objectsModule = new DevExpress.ExpressApp.Objects.BusinessClassLibraryCustomizationModule();
             this.securityStrategyComplex1 = new DevExpress.ExpressApp.Security.SecurityStrategyComplex();
-            this.securityModule1 = new DevExpress.ExpressApp.Security.SecurityModule();
             this.authenticationActiveDirectory1 = new DevExpress.ExpressApp.Security.AuthenticationActiveDirectory();
+            this.validationModule1 = new DevExpress.ExpressApp.Validation.ValidationModule();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // securityStrategyComplex1
@@ -46,6 +47,11 @@
             this.authenticationActiveDirectory1.CreateUserAutomatically = true;
             this.authenticationActiveDirectory1.LogonParametersType = null;
             // 
+            // validationModule1
+            // 
+            this.validationModule1.AllowValidationDetailsAccess = true;
+            this.validationModule1.IgnoreWarningAndInformationRules = false;
+            // 
             // XAFasWindowsFormsApplication
             // 
             this.ApplicationName = "XAFas";
@@ -56,6 +62,7 @@
             this.Modules.Add(this.module3);
             this.Modules.Add(this.module4);
             this.Modules.Add(this.securityModule1);
+            this.Modules.Add(this.validationModule1);
             this.Security = this.securityStrategyComplex1;
             this.UseOldTemplates = false;
             this.DatabaseVersionMismatch += new System.EventHandler<DevExpress.ExpressApp.DatabaseVersionMismatchEventArgs>(this.XAFasWindowsFormsApplication_DatabaseVersionMismatch);
@@ -71,8 +78,9 @@
         private XAFas.Module.XAFasModule module3;
         private XAFas.Module.Win.XAFasWindowsFormsModule module4;
         private DevExpress.ExpressApp.Objects.BusinessClassLibraryCustomizationModule objectsModule;
-        private DevExpress.ExpressApp.Security.SecurityStrategyComplex securityStrategyComplex1;
         private DevExpress.ExpressApp.Security.SecurityModule securityModule1;
+        private DevExpress.ExpressApp.Security.SecurityStrategyComplex securityStrategyComplex1;
         private DevExpress.ExpressApp.Security.AuthenticationActiveDirectory authenticationActiveDirectory1;
+        private DevExpress.ExpressApp.Validation.ValidationModule validationModule1;
     }
 }

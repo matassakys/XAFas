@@ -31,7 +31,7 @@ namespace XAFas.Module.DatabaseUpdate {
             }
 
             PermissionPolicyUser user1 = ObjectSpace.FindObject<PermissionPolicyUser>(
-            new BinaryOperator("UserName", "admin"));
+            new BinaryOperator("UserName", "DESKTOP-K2J4GPG\\Matas"));
             if (user1 == null)
             {
                 user1 = ObjectSpace.CreateObject<PermissionPolicyUser>();

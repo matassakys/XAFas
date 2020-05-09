@@ -72,3 +72,11 @@ C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\ja\DevExpress.ExpressApp.S
 C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\ru\DevExpress.ExpressApp.Security.v19.2.resources.dll
 C:\Users\Matas\source\repos\XAFas\XAFas.Win\obj\Debug\XAFas.Win.XAFasWindowsFormsApplication.resources
 C:\Users\Matas\source\repos\XAFas\XAFas.Win\obj\Debug\XAFas.Win.exe.licenses
+C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\DevExpress.ExpressApp.Validation.v19.2.dll
+C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\DevExpress.ExpressApp.Validation.v19.2.xml
+C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\de\DevExpress.ExpressApp.Validation.v19.2.resources.dll
+C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\es\DevExpress.ExpressApp.Validation.v19.2.resources.dll
+C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\ja\DevExpress.ExpressApp.Validation.v19.2.resources.dll
+C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\ru\DevExpress.ExpressApp.Validation.v19.2.resources.dll
+C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\DevExpress.ExpressApp.ConditionalAppearance.v19.2.dll
+C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\DevExpress.ExpressApp.ConditionalAppearance.v19.2.xml

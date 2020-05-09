@@ -27,6 +27,7 @@ namespace XAFas.Module.BusinessObjects
         }
 
         private string _name;
+        [RuleRequiredField(DefaultContexts.Save)]
         public string Name
         {
             get { return _name; }

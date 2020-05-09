@@ -23,27 +23,19 @@ namespace XAFas.Module.Controllers
         public FinishWorkController()
         {
             InitializeComponent();
-            // Target required Views (via the TargetXXX properties) and create their Actions.
+            FinishWorkAction.TargetObjectsCriteria = "Status = 1";
         }
         protected override void OnActivated()
         {
             base.OnActivated();
-            // Perform various tasks depending on the target View.
         }
         protected override void OnViewControlsCreated()
         {
             base.OnViewControlsCreated();
-            // Access and customize the target View control.
         }
         protected override void OnDeactivated()
         {
-            // Unsubscribe from previously subscribed events and release other references and resources.
             base.OnDeactivated();
-        }
-
-        private void FinishWorkAction_Execute(object sender, PopupWindowShowActionExecuteEventArgs e)
-        {
-
         }
 
         private void finishWorkAction_CustomizePopupWindowParams(object sender, CustomizePopupWindowParamsEventArgs e)
@@ -55,7 +47,8 @@ namespace XAFas.Module.Controllers
             foreach (Failure failure in wo.Failures)
             {
                 FixedFailure fixedFailure = new FixedFailure();
-                fixedFailure.Description = failure.Description;
+                fixedFailure.Equipment = failure.Equipment.Type.Name;
+                fixedFailure.FailureDescription = failure.Description;
                 fixedFailure.Oid = failure.Oid.ToString();
                 failureList.FixedFailures.Add(fixedFailure);
             }
@@ -64,7 +57,31 @@ namespace XAFas.Module.Controllers
             detailView.ViewEditMode = DevExpress.ExpressApp.Editors.ViewEditMode.Edit;
             e.View = detailView;
             e.DialogController.SaveOnAccept = false;
-            e.DialogController.CancelAction.Active["NothingToCancel"] = false;
+            e.DialogController.CancelAction.Active["NothingToCancel"] = true;
+        }
+
+        private void FinishWorkAction_Execute(object sender, PopupWindowShowActionExecuteEventArgs e)
+        {
+            WorkOrder wo = e.CurrentObject as WorkOrder;
+            FixedFailureList failureList = e.PopupWindowViewCurrentObject as FixedFailureList;
+            if (wo != null && failureList != null)
+            {
+                wo.Status = WorkOrder.StatusEnum.Ended;
+
+                foreach (Failure failure in wo.Failures)
+                {
+                    string failureOid = failure.Oid.ToString();
+                    foreach (FixedFailure fixedFailure in failureList.FixedFailures)
+                    {
+                        if (fixedFailure.Oid.Equals(failureOid))
+                        {
+                            failure.Status = Failure.StatusEnum.Closed;
+                            failure.IsFixed = fixedFailure.IsFixed;
+                        }
+                    }
+                }
+                wo.Save();
+            }
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using DevExpress.ExpressApp.DC;
+using DevExpress.ExpressApp.Model;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,8 +14,12 @@ namespace XAFas.Module.BusinessObjects
     {
         [Browsable(false), DevExpress.ExpressApp.Data.Key]
         public int Id;
-        public string Description { get; set; }
+        [ModelDefault("AllowEdit", "false")]
+        public string Equipment { get; set; }
+        [ModelDefault("AllowEdit", "false")]
+        public string FailureDescription { get; set; }
         public bool IsFixed { get; set; }
+        [Browsable(false)]
         public string Oid { get; set; }
     }
 }

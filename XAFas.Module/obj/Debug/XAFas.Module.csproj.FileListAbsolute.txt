@@ -122,3 +122,7 @@ C:\Users\Matas\source\repos\XAFas\XAFas.Module\bin\Debug\ru\DevExpress.ExpressAp
 C:\Users\Matas\source\repos\XAFas\XAFas.Module\obj\Debug\XAFas.Module.dll.licenses
 C:\Users\Matas\source\repos\XAFas\XAFas.Module\obj\Debug\XAFas.Module.Controllers.FinishWorkController.resources
 C:\Users\Matas\source\repos\XAFas\XAFas.Module\obj\Debug\XAFas.Module.csproj.GenerateResource.cache
+C:\Users\Matas\source\repos\XAFas\XAFas.Module\obj\Debug\XAFas.Module.Controllers.StartWorkController.resources
+C:\Users\Matas\source\repos\XAFas\XAFas.Module\obj\Debug\XAFas.Module.XAFasModule.resources
+C:\Users\Matas\source\repos\XAFas\XAFas.Module\bin\Debug\DevExpress.ExpressApp.ConditionalAppearance.v19.2.dll
+C:\Users\Matas\source\repos\XAFas\XAFas.Module\bin\Debug\DevExpress.ExpressApp.ConditionalAppearance.v19.2.xml

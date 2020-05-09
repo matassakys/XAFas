@@ -36,6 +36,7 @@
             this.FinishWorkAction.AcceptButtonCaption = null;
             this.FinishWorkAction.CancelButtonCaption = null;
             this.FinishWorkAction.Caption = "Finish Work Action";
+            this.FinishWorkAction.Category = "View";
             this.FinishWorkAction.ConfirmationMessage = null;
             this.FinishWorkAction.Id = "FinishWorkAction";
             this.FinishWorkAction.TargetObjectType = typeof(XAFas.Module.BusinessObjects.WorkOrder);

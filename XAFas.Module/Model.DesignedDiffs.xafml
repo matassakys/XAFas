@@ -1,5 +1,10 @@
-﻿<?xml version="1.0" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Application Title="XAFas">
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="19.2.5.0" IsNewNode="True" />
+  </SchemaModules>
   <Views>
+    <ListView Id="FixedFailure_ListView" AllowEdit="True" />
+    <ListView Id="FixedFailureList_FixedFailures_ListView" AllowEdit="True" />
   </Views>
 </Application>

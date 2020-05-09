@@ -11,6 +11,8 @@ using System.Collections.Generic;
 using DevExpress.ExpressApp.Model;
 using DevExpress.Persistent.BaseImpl;
 using DevExpress.Persistent.Validation;
+using DevExpress.ExpressApp.ConditionalAppearance;
+using DevExpress.ExpressApp.Editors;
 
 namespace XAFas.Module.BusinessObjects
 {
@@ -26,6 +28,7 @@ namespace XAFas.Module.BusinessObjects
         {
             base.AfterConstruction();
             Status = StatusEnum.NotFixed;
+            Priority = PriorityEnum.Average;
             FailureDate = DateTime.Now;
         }
 
@@ -41,8 +44,15 @@ namespace XAFas.Module.BusinessObjects
                 {
                     this.Equipment.Status = Equipment.StatusEnum.Maintenance;
                 }
-            }
-                
+                else if (this.Status == StatusEnum.Closed && IsFixed == true)
+                {
+                    this.Equipment.Status = Equipment.StatusEnum.Operating;
+                }
+                else if (this.Status == StatusEnum.Closed && IsFixed == false)
+                {
+                    this.Equipment.Status = Equipment.StatusEnum.WritenOff;
+                }
+            }                
             base.OnSaving();
         }
 
@@ -68,6 +78,7 @@ namespace XAFas.Module.BusinessObjects
         }
 
         private StatusEnum _status;
+        [ModelDefault("AllowEdit", "false")]
         public StatusEnum Status
         {
             get { return _status; }
@@ -80,7 +91,16 @@ namespace XAFas.Module.BusinessObjects
             Closed
         }
 
+        private bool _isFixed;
+        [Browsable(false)]
+        public bool IsFixed
+        {
+            get { return _isFixed; }
+            set { SetPropertyValue(nameof(IsFixed), ref _isFixed, value); }
+        }
+
         private DateTime _failureDate;
+        [ModelDefault("AllowEdit", "false")]
         public DateTime FailureDate
         {
             get { return _failureDate; }
@@ -97,6 +117,7 @@ namespace XAFas.Module.BusinessObjects
 
         private WorkOrder workOrder;
         [Association("WorkOrder-Failures")]
+        [ModelDefault("AllowEdit", "false")]
         public WorkOrder WorkOrder
         {
             get { return workOrder; }

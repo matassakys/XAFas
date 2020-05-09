@@ -1,7 +1,53 @@
-﻿<Application Logo="ExpressAppLogo">
-	<Options UIType="TabbedMDI" FormStyle="Ribbon" />
-	<NavigationItems NavigationStyle="Accordion" ShowImages="False" DefaultChildItemsDisplayStyle="List"/>
-	<Options ShowTabImage="False">
-		<LayoutManagerOptions EnableLayoutGroupImages="False" />
-	</Options>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Logo="ExpressAppLogo">
+  <ActionDesign>
+    <Controllers>
+      <ViewController Name="XAFas.Module.Controllers.StartWorkController" Index="1" />
+      <ViewController Name="XAFas.Module.Controllers.FinishWorkController" Index="2" />
+    </Controllers>
+  </ActionDesign>
+  <NavigationItems NavigationStyle="Accordion" ShowImages="False" DefaultChildItemsDisplayStyle="List">
+    <Items>
+      <Item Id="Default">
+        <Items>
+          <Item Id="Equipment_ListView" Index="1" />
+          <Item Id="Failure_ListView" Index="2" />
+          <Item Id="WorkOrder_ListView" Index="3" />
+          <Item Id="PermissionPolicyRole_ListView" Index="4" />
+          <Item Id="PermissionPolicyUser_ListView" Index="5" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options UIType="TabbedMDI" FormStyle="Ribbon" ShowTabImage="False">
+    <LayoutManagerOptions EnableLayoutGroupImages="False" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="19.2.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="19.2.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="Equipment_Failures_ListView">
+      <Columns>
+        <ColumnInfo Id="WorkOrder" LookupProperty="Description" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Failure_DetailView">
+      <Items>
+        <PropertyEditor Id="Equipment" LookupProperty="Type.Name" />
+        <PropertyEditor Id="WorkOrder" LookupProperty="Description" />
+      </Items>
+    </DetailView>
+    <ListView Id="Failure_ListView">
+      <Columns>
+        <ColumnInfo Id="Equipment" LookupProperty="Type.Name" />
+        <ColumnInfo Id="WorkOrder" LookupProperty="Description" />
+      </Columns>
+    </ListView>
+    <ListView Id="WorkOrder_Failures_ListView">
+      <Columns>
+        <ColumnInfo Id="Equipment" LookupProperty="Type.Name" />
+      </Columns>
+    </ListView>
+  </Views>
 </Application>

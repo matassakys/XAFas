@@ -25,7 +25,7 @@ namespace XAFas.Module.BusinessObjects
         public override void AfterConstruction()
         {
             base.AfterConstruction();
-            this.Status = StatusEnum.NotStarted;
+            this._status = StatusEnum.NotStarted;
         }
 
         private TypeEnum _type;
@@ -42,6 +42,7 @@ namespace XAFas.Module.BusinessObjects
         }
 
         private StatusEnum _status;
+        [ModelDefault("AllowEdit", "false")]
         public StatusEnum Status
         {
             get { return _status; }

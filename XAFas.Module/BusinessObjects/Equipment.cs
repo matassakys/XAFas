@@ -11,17 +11,20 @@ using System.Collections.Generic;
 using DevExpress.ExpressApp.Model;
 using DevExpress.Persistent.BaseImpl;
 using DevExpress.Persistent.Validation;
+using DevExpress.ExpressApp.ConditionalAppearance;
 
 namespace XAFas.Module.BusinessObjects
-{
+{ 
     [DefaultClassOptions]
-
+    [Appearance("FontColorRed", AppearanceItemType = "ViewItem", TargetItems = "*", Context = "ListView",
+    Criteria = "UpcopingIspection <= AddDays(LocalDateTimeNow(), 3)", FontColor = "Red")]
     public class Equipment : BaseObject
     { 
         public Equipment(Session session)
             : base(session)
         {
         }
+        
         public override void AfterConstruction()
         {
             base.AfterConstruction();
@@ -29,6 +32,7 @@ namespace XAFas.Module.BusinessObjects
         }
 
         private EquipmentType _type;
+        [RuleRequiredField(DefaultContexts.Save)]
         public EquipmentType Type
         {
             get { return _type; }
@@ -49,6 +53,7 @@ namespace XAFas.Module.BusinessObjects
         }
 
         private StatusEnum _status;
+        [ModelDefault("AllowEdit", "false")]
         public StatusEnum Status
         {
             get { return _status; }
