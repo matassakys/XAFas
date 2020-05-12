@@ -26,6 +26,7 @@ namespace XAFas.Module.BusinessObjects
         {
             base.AfterConstruction();
             this._status = StatusEnum.NotStarted;
+            this._type = TypeEnum.Maintenance;
         }
 
         private TypeEnum _type;

@@ -27094,3 +27094,3423 @@ Loaded assemblies
 
 09.05.20 03:24:59.005	Application stopping
 =====================
+11.05.20 02:55:34.027	================================================================================
+11.05.20 02:55:34.031	Trace Log for XAFas.Win.exe is started
+11.05.20 02:55:34.032	================================================================================
+11.05.20 02:55:34.034	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 19.2.5.0
+	eXpressApp File Version: 19.2.5.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+
+11.05.20 02:55:34.122	Initialize application
+=======================
+11.05.20 02:55:34.124		Command line arguments: 
+		C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\XAFas.Win.exe
+11.05.20 02:55:34.275	Resolve the 'DevExpress.ExpressApp.Security.Xpo.v19.2' assembly
+11.05.20 02:55:34.277	Resolve the 'DevExpress.ExpressApp.Security.Xpo.v19.2' assembly
+11.05.20 02:55:35.868	The ValueManagerType is initialized by the default value: SimpleValueManager.
+11.05.20 02:55:35.888	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.Xpo.InMemoryDataStoreProvider..cctor()
+   at DevExpress.ExpressApp.Xpo.XPObjectSpaceProvider.GetDataStoreProvider(String connectionString, IDbConnection connection, Boolean enablePoolingInConnectionString)
+   at XAFas.Win.XAFasWindowsFormsApplication.CreateDefaultObjectSpaceProvider(CreateCustomObjectSpaceProviderEventArgs args) in C:\Users\Matas\source\repos\XAFas\XAFas.Win\WinApplication.cs:line 32
+   at DevExpress.ExpressApp.XafApplication.CreateObjectSpaceProviders(String connectionString)
+   at DevExpress.ExpressApp.XafApplication.Setup()
+   at XAFas.Win.Program.Main() in C:\Users\Matas\source\repos\XAFas\XAFas.Win\Program.cs:line 50
+
+11.05.20 02:55:35.935	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+11.05.20 02:55:35.936	--------------------------------------------------------------------------------
+							
+
+11.05.20 02:55:35.958	Resolve the 'DevExpress.BonusSkins.v19.2' assembly
+11.05.20 02:55:35.981	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.Data.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.Data.v19.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v19.2.dll
+	DevExpress.ExpressApp.Objects.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v19.2.dll
+	DevExpress.ExpressApp.Security.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v19.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v19.2.dll
+	DevExpress.ExpressApp.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.v19.2.dll
+	DevExpress.ExpressApp.Validation.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v19.2.dll
+	DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v19.2.dll
+	DevExpress.ExpressApp.Xpo.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v19.2.dll
+	DevExpress.Persistent.Base.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.Persistent.Base.v19.2.dll
+	DevExpress.Persistent.BaseImpl.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v19.2.dll
+	DevExpress.Printing.v19.2.Core, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v19.2.Core\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.Printing.v19.2.Core.dll
+	DevExpress.Utils.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.Utils.v19.2.dll
+	DevExpress.Xpo.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.Xpo.v19.2.dll
+	DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.XtraBars.v19.2.dll
+	DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.XtraEditors.v19.2.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	XAFas.Module, Version=1.0.7434.6135, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\XAFas.Module.dll
+	XAFas.Module.Win, Version=1.0.7434.6135, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\XAFas.Module.Win.dll
+	XAFas.Win, Version=1.0.7434.6135, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\XAFas.Win.exe
+11.05.20 02:55:35.982	Resolve the 'DevExpress.BonusSkins.v19.2, Version=19.2.5.0' assembly
+11.05.20 02:55:36.188	SetupModules
+11.05.20 02:55:36.467	Customize TypesInfo
+11.05.20 02:55:39.546		preferredLanguageName: (User language)
+								userLanguageName: en-US
+
+11.05.20 02:55:39.548		preferredLanguageName: (User language)
+								userFormattingCultureName: en-US
+								selectedFormattingCultureName: 
+
+11.05.20 02:55:39.731	--------------------------------------------------------------------------------
+							Start logon process
+
+11.05.20 02:55:39.742	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+11.05.20 02:55:39.745		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(local);Initial Catalog=XAFas;XpoDataStorePool=True;
+11.05.20 02:55:39.746		ConnectionString: 
+11.05.20 02:55:40.129	--------------------------------------------------------------------------------
+							UpdateDB
+
+11.05.20 02:55:40.158		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(local);Initial Catalog=XAFas;XpoDataStorePool=True;
+11.05.20 02:55:40.440	--------------------------------------------------------------------------------
+							Logon successful
+
+11.05.20 02:55:40.454	--------------------------------------------------------------------------------
+							Logon completed
+
+11.05.20 02:55:40.469		startUpActions: 1
+11.05.20 02:55:40.525	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+11.05.20 02:55:40.651	Generate default Model for Action containers
+11.05.20 02:55:41.452	Resolve the 'DevExpress.ExpressApp.Win.v19.2.XmlSerializers, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+11.05.20 02:55:41.456	Resolve the 'DevExpress.ExpressApp.Win.v19.2.XmlSerializers, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+11.05.20 02:55:43.597	--------------------------------------------------------------------------------
+							Execute action
+
+11.05.20 02:55:43.600		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+11.05.20 02:55:43.604	Action 'ConfigureSkin' done
+11.05.20 02:55:43.678	--------------------------------------------------------------------------------
+							Execute action
+
+11.05.20 02:55:43.680		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+11.05.20 02:55:43.682	Action 'ConfigureSkin' done
+11.05.20 02:55:44.738	Application startup done
+=========================
+11.05.20 02:55:44.741	Application running
+====================
+11.05.20 02:55:52.878	--------------------------------------------------------------------------------
+							Execute action
+
+11.05.20 02:55:52.881		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+11.05.20 02:55:52.883		SelectedItem: Role
+11.05.20 02:55:53.267	Action 'ShowNavigationItem' done
+11.05.20 02:55:58.520	--------------------------------------------------------------------------------
+							Execute action
+
+11.05.20 02:55:58.523		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Role
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyRole(cef8947f-5e6a-484a-8143-8d45438a803c)
+
+11.05.20 02:55:58.524		SelectedItem: Role
+11.05.20 02:55:59.205	Action 'New' done
+11.05.20 02:56:11.390	'Name' property editor: new value is 'Engineer'
+11.05.20 02:56:23.128	'PermissionPolicy' property editor: new value is 'AllowAllByDefault'
+11.05.20 02:56:23.131	--------------------------------------------------------------------------------
+							Execute action
+
+11.05.20 02:56:23.133		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: SaveAndClose
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Role
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyRole(c24bf855-055c-4af7-8fd3-80fa1956024c)
+
+11.05.20 02:56:23.302	Window closing: Engineer - Role
+11.05.20 02:56:23.338	Window closed: Engineer - Role
+11.05.20 02:56:23.602	Action 'SaveAndClose' done
+11.05.20 02:56:25.240	--------------------------------------------------------------------------------
+							Execute action
+
+11.05.20 02:56:25.241		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Role
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyRole(c24bf855-055c-4af7-8fd3-80fa1956024c)
+
+11.05.20 02:56:25.242		SelectedItem: Role
+11.05.20 02:56:25.501	Action 'New' done
+11.05.20 02:56:34.645	'Name' property editor: new value is 'Senior Engineer'
+11.05.20 02:56:36.937	'PermissionPolicy' property editor: new value is 'AllowAllByDefault'
+11.05.20 02:56:36.939	--------------------------------------------------------------------------------
+							Execute action
+
+11.05.20 02:56:36.941		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: SaveAndClose
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Role
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyRole(fed3c784-839d-452b-b184-fb5f0e0977b0)
+
+11.05.20 02:56:36.960	Window closing: Senior Engineer - Role
+11.05.20 02:56:36.962	Window closed: Senior Engineer - Role
+11.05.20 02:56:37.078	Action 'SaveAndClose' done
+11.05.20 02:56:38.380	--------------------------------------------------------------------------------
+							Execute action
+
+11.05.20 02:56:38.382		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+11.05.20 02:56:38.384		SelectedItem: User
+11.05.20 02:56:38.614	Action 'ShowNavigationItem' done
+11.05.20 02:56:40.063	--------------------------------------------------------------------------------
+							Execute action
+
+11.05.20 02:56:40.065		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: User
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DESKTOP-K2J4GPG\Matas
+
+11.05.20 02:56:40.441	Action 'ListViewShowObject' done
+11.05.20 02:56:44.568		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: Link
+								Category: Link
+								Controller.Name: DevExpress.ExpressApp.SystemModule.LinkUnlinkController
+								Context.Name: Roles
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyRole(cef8947f-5e6a-484a-8143-8d45438a803c)
+
+11.05.20 02:56:47.626	--------------------------------------------------------------------------------
+							Execute action
+
+11.05.20 02:56:47.628		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: DialogCancel
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.SystemModule.LinkDialogController
+								Context.Name: Role
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyRole(cef8947f-5e6a-484a-8143-8d45438a803c)
+
+11.05.20 02:56:47.630	Window closing: Role
+11.05.20 02:56:47.635	Action 'DialogCancel' done
+11.05.20 02:56:47.638	Window closed: Role
+11.05.20 02:56:53.303	Window closing: Equipment
+11.05.20 02:56:53.305	Window closing: Role
+11.05.20 02:56:53.306	Window closing: User
+11.05.20 02:56:53.308	Window closing: DESKTOP-K2J4GPG\Matas - User
+11.05.20 02:56:53.309	Window closing: DESKTOP-K2J4GPG\Matas - User - XAFas
+11.05.20 02:56:53.346	Window closed: Equipment
+11.05.20 02:56:53.348	Window closed: Role
+11.05.20 02:56:53.350	Window closed: User
+11.05.20 02:56:53.352	Window closed: DESKTOP-K2J4GPG\Matas - User
+11.05.20 02:56:53.353	Window closed: DESKTOP-K2J4GPG\Matas - User - XAFas
+11.05.20 02:56:53.688	Save model changes
+===================
+11.05.20 02:56:53.730	Save model changes
+===================
+11.05.20 02:56:53.742	--------------------------------------------------------------------------------
+							Logoff completed
+
+11.05.20 02:56:53.745	Application stopping
+=====================
+12.05.20 15:39:16.202	================================================================================
+12.05.20 15:39:16.206	Trace Log for XAFas.Win.exe is started
+12.05.20 15:39:16.207	================================================================================
+12.05.20 15:39:16.208	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 19.2.5.0
+	eXpressApp File Version: 19.2.5.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+
+12.05.20 15:39:16.309	Initialize application
+=======================
+12.05.20 15:39:16.311		Command line arguments: 
+		C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\XAFas.Win.exe
+12.05.20 15:39:16.457	Resolve the 'DevExpress.ExpressApp.Security.Xpo.v19.2' assembly
+12.05.20 15:39:16.458	Resolve the 'DevExpress.ExpressApp.Security.Xpo.v19.2' assembly
+12.05.20 15:39:17.849	The ValueManagerType is initialized by the default value: SimpleValueManager.
+12.05.20 15:39:17.867	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.Xpo.InMemoryDataStoreProvider..cctor()
+   at DevExpress.ExpressApp.Xpo.XPObjectSpaceProvider.GetDataStoreProvider(String connectionString, IDbConnection connection, Boolean enablePoolingInConnectionString)
+   at XAFas.Win.XAFasWindowsFormsApplication.CreateDefaultObjectSpaceProvider(CreateCustomObjectSpaceProviderEventArgs args) in C:\Users\Matas\source\repos\XAFas\XAFas.Win\WinApplication.cs:line 32
+   at DevExpress.ExpressApp.XafApplication.CreateObjectSpaceProviders(String connectionString)
+   at DevExpress.ExpressApp.XafApplication.Setup()
+   at XAFas.Win.Program.Main() in C:\Users\Matas\source\repos\XAFas\XAFas.Win\Program.cs:line 50
+
+12.05.20 15:39:17.917	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+12.05.20 15:39:17.918	--------------------------------------------------------------------------------
+							
+
+12.05.20 15:39:17.961	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.Data.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.Data.v19.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v19.2.dll
+	DevExpress.ExpressApp.Objects.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v19.2.dll
+	DevExpress.ExpressApp.Security.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v19.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v19.2.dll
+	DevExpress.ExpressApp.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.v19.2.dll
+	DevExpress.ExpressApp.Validation.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v19.2.dll
+	DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v19.2.dll
+	DevExpress.ExpressApp.Xpo.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v19.2.dll
+	DevExpress.Persistent.Base.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.Persistent.Base.v19.2.dll
+	DevExpress.Persistent.BaseImpl.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v19.2.dll
+	DevExpress.Printing.v19.2.Core, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v19.2.Core\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.Printing.v19.2.Core.dll
+	DevExpress.Utils.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.Utils.v19.2.dll
+	DevExpress.Xpo.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.Xpo.v19.2.dll
+	DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.XtraBars.v19.2.dll
+	DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.XtraEditors.v19.2.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	XAFas.Module, Version=1.0.7434.6135, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\XAFas.Module.dll
+	XAFas.Module.Win, Version=1.0.7434.6135, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\XAFas.Module.Win.dll
+	XAFas.Win, Version=1.0.7437.28177, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\XAFas.Win.exe
+12.05.20 15:39:17.963	Resolve the 'DevExpress.BonusSkins.v19.2' assembly
+12.05.20 15:39:17.965	Resolve the 'DevExpress.BonusSkins.v19.2, Version=19.2.5.0' assembly
+12.05.20 15:39:18.100	SetupModules
+12.05.20 15:39:18.344	Customize TypesInfo
+12.05.20 15:39:21.178		preferredLanguageName: (User language)
+								userLanguageName: en-US
+
+12.05.20 15:39:21.181		preferredLanguageName: (User language)
+								userFormattingCultureName: en-US
+								selectedFormattingCultureName: 
+
+12.05.20 15:39:21.351	--------------------------------------------------------------------------------
+							Start logon process
+
+12.05.20 15:39:21.364	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+12.05.20 15:39:21.367		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(local);Initial Catalog=XAFas;XpoDataStorePool=True;
+12.05.20 15:39:21.369		ConnectionString: 
+12.05.20 15:39:21.827	--------------------------------------------------------------------------------
+							UpdateDB
+
+12.05.20 15:39:21.854		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(local);Initial Catalog=XAFas;XpoDataStorePool=True;
+12.05.20 15:39:22.138	--------------------------------------------------------------------------------
+							Logon successful
+
+12.05.20 15:39:22.153	--------------------------------------------------------------------------------
+							Logon completed
+
+12.05.20 15:39:22.168		startUpActions: 1
+12.05.20 15:39:22.217	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+12.05.20 15:39:22.353	Generate default Model for Action containers
+12.05.20 15:39:23.174	Resolve the 'DevExpress.ExpressApp.Win.v19.2.XmlSerializers, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+12.05.20 15:39:23.178	Resolve the 'DevExpress.ExpressApp.Win.v19.2.XmlSerializers, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+12.05.20 15:39:25.855	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 15:39:25.857		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+12.05.20 15:39:25.860	Action 'ConfigureSkin' done
+12.05.20 15:39:25.949	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 15:39:25.951		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+12.05.20 15:39:25.953	Action 'ConfigureSkin' done
+12.05.20 15:39:27.501	Application startup done
+=========================
+12.05.20 15:39:27.503	Application running
+====================
+12.05.20 15:39:32.175	Window closing: Work Order
+12.05.20 15:39:32.212	Window closed: Work Order
+12.05.20 15:39:33.719	Window closing: DESKTOP-K2J4GPG\Matas - User
+12.05.20 15:39:33.731	Window closed: DESKTOP-K2J4GPG\Matas - User
+12.05.20 15:39:34.770	Window closing: Role
+12.05.20 15:39:34.774	Window closed: Role
+12.05.20 15:39:35.412	Window closing: Failure
+12.05.20 15:39:35.418	Window closed: Failure
+12.05.20 15:39:36.128	Window closing: Work Order
+12.05.20 15:39:36.131	Window closed: Work Order
+12.05.20 15:39:36.676	Window closing: Equipment
+12.05.20 15:39:36.679	Window closed: Equipment
+12.05.20 15:39:37.721	Window closing: User
+12.05.20 15:39:37.724	Window closed: User
+12.05.20 15:39:38.767	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 15:39:38.769		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 15:39:38.772		SelectedItem: Role
+12.05.20 15:39:38.945	Action 'ShowNavigationItem' done
+12.05.20 15:39:39.640	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 15:39:39.642		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 15:39:39.643		SelectedItem: Work Order
+12.05.20 15:39:39.847	Action 'ShowNavigationItem' done
+12.05.20 15:39:40.376	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 15:39:40.379		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 15:39:40.382		SelectedItem: Failure
+12.05.20 15:39:40.595	Action 'ShowNavigationItem' done
+12.05.20 15:39:40.826	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 15:39:40.829		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 15:39:40.831		SelectedItem: Equipment
+12.05.20 15:39:41.025	Action 'ShowNavigationItem' done
+12.05.20 15:39:46.215	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 15:39:46.217		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 15:39:46.219		SelectedItem: Failure
+12.05.20 15:39:46.330	Action 'ShowNavigationItem' done
+12.05.20 15:39:48.972	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 15:39:48.973		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 15:39:48.974		SelectedItem: Work Order
+12.05.20 15:39:49.074	Action 'ShowNavigationItem' done
+12.05.20 15:39:54.508	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 15:39:54.510		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 15:39:54.512		SelectedItem: Role
+12.05.20 15:39:54.613	Action 'ShowNavigationItem' done
+12.05.20 15:39:57.321	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 15:39:57.323		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 15:39:57.324		SelectedItem: User
+12.05.20 15:39:57.504	Action 'ShowNavigationItem' done
+12.05.20 15:39:58.771	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 15:39:58.772		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 15:39:58.773		SelectedItem: My Details
+12.05.20 15:39:59.079	Action 'ShowNavigationItem' done
+12.05.20 15:40:04.264	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 15:40:04.266		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 15:40:04.267		SelectedItem: Equipment
+12.05.20 15:40:04.390	Action 'ShowNavigationItem' done
+12.05.20 15:40:08.030	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 15:40:08.032		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(719e3160-41a3-4c24-89aa-3b30c4695d47)
+
+12.05.20 15:40:08.269	Action 'ListViewShowObject' done
+12.05.20 15:40:17.609	'UpcopingIspection' property editor: new value is '2020-05-24 00:00:00'
+12.05.20 15:40:17.620	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 15:40:17.622		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: SaveAndClose
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(719e3160-41a3-4c24-89aa-3b30c4695d47)
+
+12.05.20 15:40:17.754	Window closing: Equipment
+12.05.20 15:40:17.757	Window closed: Equipment
+12.05.20 15:40:17.822	Action 'SaveAndClose' done
+12.05.20 15:40:21.103	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 15:40:21.105		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(c1a2f081-bdc8-404c-97e6-838eccc9e3a7)
+
+12.05.20 15:40:21.334	Action 'ListViewShowObject' done
+12.05.20 15:40:30.981	'UpcopingIspection' property editor: new value is '2020-05-13 00:00:00'
+12.05.20 15:40:30.985	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 15:40:30.987		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: SaveAndClose
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(c1a2f081-bdc8-404c-97e6-838eccc9e3a7)
+
+12.05.20 15:40:31.001	Window closing: Equipment
+12.05.20 15:40:31.003	Window closed: Equipment
+12.05.20 15:40:31.060	Action 'SaveAndClose' done
+12.05.20 15:40:35.359	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 15:40:35.360		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(c1a2f081-bdc8-404c-97e6-838eccc9e3a7)
+
+12.05.20 15:40:35.370	Action 'Refresh' done
+12.05.20 15:40:37.074	Window closing: Failure
+12.05.20 15:40:37.077	Window closed: Failure
+12.05.20 15:40:37.789	Window closing: Equipment
+12.05.20 15:40:37.791	Window closed: Equipment
+12.05.20 15:40:39.362	Window closing: Role
+12.05.20 15:40:39.364	Window closed: Role
+12.05.20 15:40:40.000	Window closing: Work Order
+12.05.20 15:40:40.003	Window closed: Work Order
+12.05.20 15:40:41.129	Window closing: User
+12.05.20 15:40:41.132	Window closed: User
+12.05.20 15:40:42.120	Window closing: DESKTOP-K2J4GPG\Matas - User
+12.05.20 15:40:42.122	Window closed: DESKTOP-K2J4GPG\Matas - User
+12.05.20 15:40:56.417	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 15:40:56.418		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+12.05.20 15:40:56.419	Action 'ConfigureSkin' done
+12.05.20 15:41:00.916	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 15:41:00.917		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+12.05.20 15:41:00.918	Action 'ConfigureSkin' done
+12.05.20 15:41:04.114	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 15:41:04.115		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+12.05.20 15:41:04.117	Action 'ConfigureSkin' done
+12.05.20 15:41:07.899	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 15:41:07.901		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+12.05.20 15:41:07.902	Action 'ConfigureSkin' done
+12.05.20 15:41:09.716	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 15:41:09.717		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+12.05.20 15:41:09.718	Action 'ConfigureSkin' done
+12.05.20 15:41:12.599	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 15:41:12.600		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+12.05.20 15:41:12.602	Action 'ConfigureSkin' done
+12.05.20 15:41:18.431	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 15:41:18.432		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+12.05.20 15:41:18.434	Action 'ConfigureSkin' done
+12.05.20 15:41:21.062	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 15:41:21.064		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+12.05.20 15:41:21.065	Action 'ConfigureSkin' done
+12.05.20 16:01:22.841	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:01:22.843		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:01:22.844		SelectedItem: Equipment
+12.05.20 16:01:23.257	Action 'ShowNavigationItem' done
+12.05.20 16:01:39.923	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:01:39.925		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:01:39.926		SelectedItem: Role
+12.05.20 16:01:40.178	Action 'ShowNavigationItem' done
+12.05.20 16:01:45.909	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:01:45.911		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:01:45.912		SelectedItem: Equipment
+12.05.20 16:01:46.032	Action 'ShowNavigationItem' done
+12.05.20 16:01:46.358	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:01:46.360		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:01:46.361		SelectedItem: Failure
+12.05.20 16:01:46.608	Action 'ShowNavigationItem' done
+12.05.20 16:01:46.661	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:01:46.662		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:01:46.663		SelectedItem: Work Order
+12.05.20 16:01:46.877	Action 'ShowNavigationItem' done
+12.05.20 16:01:49.497	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:01:49.498		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:01:49.499		SelectedItem: Equipment
+12.05.20 16:01:49.630	Action 'ShowNavigationItem' done
+12.05.20 16:03:07.688	Window closing: Equipment
+12.05.20 16:03:07.690	Window closed: Equipment
+12.05.20 16:03:08.727	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+12.05.20 16:03:11.117	Window closing: Failure
+12.05.20 16:03:11.119	Window closing: Failure - XAFas
+12.05.20 16:03:11.141	Window closed: Failure
+12.05.20 16:03:11.144	Window closed: Failure - XAFas
+12.05.20 16:03:12.835	Window closing: Work Order
+12.05.20 16:03:12.839	Window closed: Work Order
+12.05.20 16:03:13.571	Window closing: Role
+12.05.20 16:03:13.573	Window closed: Role
+12.05.20 16:03:15.595	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:03:15.596		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:03:15.597		SelectedItem: Equipment
+12.05.20 16:03:15.796	Action 'ShowNavigationItem' done
+12.05.20 16:03:38.393	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:03:38.394		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(719e3160-41a3-4c24-89aa-3b30c4695d47)
+
+12.05.20 16:03:38.395		SelectedItem: Equipment
+12.05.20 16:03:38.865	Action 'New' done
+12.05.20 16:03:44.445	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:03:44.448		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Equipment Type
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.EquipmentType(890830ab-9992-40a2-80ce-6e062474bee3)
+
+12.05.20 16:03:44.449		SelectedItem: Equipment Type
+12.05.20 16:03:48.486	'Name' property editor: new value is 'Irenginys'
+12.05.20 16:03:51.719	'Description' property editor: new value is 'swerfsf'
+12.05.20 16:03:51.721	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:03:51.723		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: SaveAndClose
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Equipment Type
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.EquipmentType(3585b64c-314b-44ff-965c-0a78350c8c0f)
+
+12.05.20 16:03:51.742	'Type' property editor: new value is 'XAFas.Module.BusinessObjects.EquipmentType(3585b64c-314b-44ff-965c-0a78350c8c0f)'
+12.05.20 16:03:51.757	Window closing: Irenginys - Equipment Type
+12.05.20 16:03:51.762	Action 'SaveAndClose' done
+12.05.20 16:03:51.771	Window closed: Irenginys - Equipment Type
+12.05.20 16:03:51.990	Action 'New' done
+12.05.20 16:04:13.992	'UpcopingIspection' property editor: new value is '2020-05-17 00:00:00'
+12.05.20 16:04:36.343	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:04:36.345		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Save
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(059f4354-5793-4433-a9e4-d079f5d1258e)
+
+12.05.20 16:04:36.428	Action 'Save' done
+12.05.20 16:04:39.746	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:04:39.747		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:04:39.748		SelectedItem: Failure
+12.05.20 16:04:39.988	Action 'ShowNavigationItem' done
+12.05.20 16:04:42.880	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:04:42.881		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(92ca843d-4dfe-4fd8-9681-d4bfc4dfe0a9)
+
+12.05.20 16:04:42.882		SelectedItem: Failure
+12.05.20 16:04:43.094	Action 'New' done
+12.05.20 16:04:50.298	'Description' property editor: new value is 'sugedo irenginys'
+12.05.20 16:05:14.930	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:05:14.931		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Equipment
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(059f4354-5793-4433-a9e4-d079f5d1258e)
+
+12.05.20 16:05:15.031	Action 'ListViewShowObject' done
+12.05.20 16:05:28.460	'Equipment' property editor: new value is 'XAFas.Module.BusinessObjects.Equipment(059f4354-5793-4433-a9e4-d079f5d1258e)'
+12.05.20 16:05:28.496	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:05:28.498		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Save
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 16:05:28.534	Action 'Save' done
+12.05.20 16:05:38.405	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:05:38.407		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(059f4354-5793-4433-a9e4-d079f5d1258e)
+
+12.05.20 16:05:38.423	Action 'Refresh' done
+12.05.20 16:05:57.955	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:05:57.956		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:05:57.957		SelectedItem: Equipment
+12.05.20 16:05:58.034	Action 'ShowNavigationItem' done
+12.05.20 16:05:58.570	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:05:58.571		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:05:58.572		SelectedItem: Failure
+12.05.20 16:05:58.692	Action 'ShowNavigationItem' done
+12.05.20 16:05:59.534	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:05:59.536		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:05:59.538		SelectedItem: Equipment
+12.05.20 16:05:59.653	Action 'ShowNavigationItem' done
+12.05.20 16:05:59.910	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:05:59.912		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:05:59.914		SelectedItem: Failure
+12.05.20 16:06:00.046	Action 'ShowNavigationItem' done
+12.05.20 16:06:00.425	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:06:00.427		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:06:00.428		SelectedItem: Equipment
+12.05.20 16:06:00.549	Action 'ShowNavigationItem' done
+12.05.20 16:06:00.939	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:06:00.940		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:06:00.941		SelectedItem: Failure
+12.05.20 16:06:01.059	Action 'ShowNavigationItem' done
+12.05.20 16:06:02.058	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:06:02.060		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:06:02.061		SelectedItem: Equipment
+12.05.20 16:06:02.182	Action 'ShowNavigationItem' done
+12.05.20 16:06:04.198	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:06:04.200		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:06:04.201		SelectedItem: Work Order
+12.05.20 16:06:04.426	Action 'ShowNavigationItem' done
+12.05.20 16:06:12.856	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:06:12.857		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Work Order
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.WorkOrder(bf6fbbb6-ac3e-4a11-9c0c-a97cb8fa164c)
+
+12.05.20 16:06:12.859		SelectedItem: Work Order
+12.05.20 16:06:13.152	Action 'New' done
+12.05.20 16:06:19.626	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:06:19.627		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:06:19.628		SelectedItem: Equipment
+12.05.20 16:06:19.781	Action 'ShowNavigationItem' done
+12.05.20 16:06:35.081	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:06:35.082		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:06:35.083		SelectedItem: Work Order
+12.05.20 16:06:35.206	Action 'ShowNavigationItem' done
+12.05.20 16:06:43.412	'Type' property editor: new value is 'Maintenance'
+12.05.20 16:06:46.439	'StartDate' property editor: new value is '2020-05-16 00:00:00'
+12.05.20 16:06:48.742	'EndDate' property editor: new value is '2020-05-31 00:00:00'
+12.05.20 16:08:04.709		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: Link
+								Category: Link
+								Controller.Name: DevExpress.ExpressApp.SystemModule.LinkUnlinkController
+								Context.Name: Failures
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 0
+								Context.CurrentObject: <not specified>
+
+12.05.20 16:08:12.784	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:08:12.785		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: DialogOK
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.SystemModule.LinkDialogController
+								Context.Name: Failure
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 16:08:12.787	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:08:12.788		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: Link
+								Category: Link
+								Controller.Name: DevExpress.ExpressApp.SystemModule.LinkUnlinkController
+								Context.Name: Failures
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 0
+								Context.CurrentObject: <not specified>
+
+12.05.20 16:08:12.800	Action 'Link' done
+12.05.20 16:08:12.802	Window closing: Failure
+12.05.20 16:08:12.804	Action 'DialogOK' done
+12.05.20 16:08:12.809	Window closed: Failure
+12.05.20 16:08:24.778	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:08:24.779		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Save
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Work Order
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.WorkOrder(cb695e3b-1649-4605-bbb6-bb66b870f35a)
+
+12.05.20 16:08:24.803	Action 'Save' done
+12.05.20 16:09:26.766	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:09:26.768		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: StartWorkAction
+								Category: Unspecified
+								Controller.Name: XAFas.Module.Controllers.StartWorkController
+								Context.Name: Work Order
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.WorkOrder(cb695e3b-1649-4605-bbb6-bb66b870f35a)
+
+12.05.20 16:09:26.889	Action 'StartWorkAction' done
+12.05.20 16:09:42.078	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:09:42.079		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Save
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Work Order
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.WorkOrder(cb695e3b-1649-4605-bbb6-bb66b870f35a)
+
+12.05.20 16:09:42.099	Action 'Save' done
+12.05.20 16:09:48.621	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:09:48.622		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(059f4354-5793-4433-a9e4-d079f5d1258e)
+
+12.05.20 16:09:48.640	Action 'Refresh' done
+12.05.20 16:10:01.560		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: FinishWorkAction
+								Category: View
+								Controller.Name: XAFas.Module.Controllers.FinishWorkController
+								Context.Name: Work Order
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.WorkOrder(cb695e3b-1649-4605-bbb6-bb66b870f35a)
+
+12.05.20 16:10:19.690	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:10:19.692		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: DialogOK
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.SystemModule.DialogController
+								Context.Name: Fixed Failure List
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.FixedFailureList
+
+12.05.20 16:10:19.693	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:10:19.694		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: FinishWorkAction
+								Category: View
+								Controller.Name: XAFas.Module.Controllers.FinishWorkController
+								Context.Name: Work Order
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.WorkOrder(cb695e3b-1649-4605-bbb6-bb66b870f35a)
+
+12.05.20 16:10:19.707	Action 'FinishWorkAction' done
+12.05.20 16:10:19.709	Window closing: Fixed Failure List
+12.05.20 16:10:19.712	ConfirmationRequest: NeedSaveChanges
+12.05.20 16:10:19.713		DefaultConfirmationResult: No
+12.05.20 16:10:21.415		UserConfirmationResult: Yes
+12.05.20 16:10:21.419	Action 'DialogOK' done
+12.05.20 16:10:21.423	Window closed: Fixed Failure List
+12.05.20 16:10:24.989	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:10:24.990		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Save
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Work Order
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.WorkOrder(cb695e3b-1649-4605-bbb6-bb66b870f35a)
+
+12.05.20 16:10:25.007	Action 'Save' done
+12.05.20 16:10:47.095	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:10:47.096		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 16:10:47.111	Action 'Refresh' done
+12.05.20 16:11:00.163	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:11:00.165		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(059f4354-5793-4433-a9e4-d079f5d1258e)
+
+12.05.20 16:11:00.184	Action 'Refresh' done
+12.05.20 16:11:29.105	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:11:29.106		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:11:29.107		SelectedItem: Failure
+12.05.20 16:11:29.245	Action 'ShowNavigationItem' done
+12.05.20 16:11:31.869	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:11:31.870		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:11:31.872		SelectedItem: Work Order
+12.05.20 16:11:32.003	Action 'ShowNavigationItem' done
+12.05.20 16:11:36.122	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:11:36.123		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:11:36.125		SelectedItem: Equipment
+12.05.20 16:11:36.258	Action 'ShowNavigationItem' done
+12.05.20 16:11:43.296	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:11:43.298		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:11:43.299		SelectedItem: Role
+12.05.20 16:11:43.517	Action 'ShowNavigationItem' done
+12.05.20 16:11:44.082	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:11:44.084		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:11:44.085		SelectedItem: User
+12.05.20 16:11:44.300	Action 'ShowNavigationItem' done
+12.05.20 16:11:45.115	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:11:45.117		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:11:45.118		SelectedItem: Role
+12.05.20 16:11:45.241	Action 'ShowNavigationItem' done
+12.05.20 16:11:45.504	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:11:45.505		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:11:45.506		SelectedItem: User
+12.05.20 16:11:45.619	Action 'ShowNavigationItem' done
+12.05.20 16:12:09.922	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:12:09.923		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:12:09.925		SelectedItem: Role
+12.05.20 16:12:10.055	Action 'ShowNavigationItem' done
+12.05.20 16:12:10.404	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:12:10.406		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:12:10.407		SelectedItem: User
+12.05.20 16:12:10.519	Action 'ShowNavigationItem' done
+12.05.20 16:12:17.863	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:12:17.864		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:12:17.866		SelectedItem: Role
+12.05.20 16:12:17.998	Action 'ShowNavigationItem' done
+12.05.20 16:12:18.098	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:12:18.099		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:12:18.100		SelectedItem: User
+12.05.20 16:12:18.212	Action 'ShowNavigationItem' done
+12.05.20 16:12:20.080	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:12:20.081		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: User
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DESKTOP-K2J4GPG\Matas
+
+12.05.20 16:12:20.082		SelectedItem: User
+12.05.20 16:12:20.383	Action 'New' done
+12.05.20 16:12:29.982	'UserName' property editor: new value is 'asdasd'
+12.05.20 16:12:48.565	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:12:48.566		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:12:48.567		SelectedItem: User
+12.05.20 16:12:48.571	Action 'ShowNavigationItem' done
+12.05.20 16:12:48.696	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:12:48.697		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:12:48.698		SelectedItem: User
+12.05.20 16:12:48.702	Action 'ShowNavigationItem' done
+12.05.20 16:12:58.424	'UserName' property editor: new value is ''
+12.05.20 16:12:58.493		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: Link
+								Category: Link
+								Controller.Name: DevExpress.ExpressApp.SystemModule.LinkUnlinkController
+								Context.Name: Roles
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 0
+								Context.CurrentObject: <not specified>
+
+12.05.20 16:13:07.400	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:13:07.401		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: DialogCancel
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.SystemModule.LinkDialogController
+								Context.Name: Role
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyRole(c24bf855-055c-4af7-8fd3-80fa1956024c)
+
+12.05.20 16:13:07.406	Window closing: Role
+12.05.20 16:13:07.408	Action 'DialogCancel' done
+12.05.20 16:13:07.409	Window closed: Role
+12.05.20 16:13:08.774	Window closing: User
+12.05.20 16:13:08.776	ConfirmationRequest: NeedSaveChanges
+12.05.20 16:13:08.777		DefaultConfirmationResult: No
+12.05.20 16:13:10.094		UserConfirmationResult: No
+12.05.20 16:13:10.096	Window closed: User
+12.05.20 16:13:50.391	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:13:50.393		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: User
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DESKTOP-K2J4GPG\Matas
+
+12.05.20 16:13:50.742	Action 'ListViewShowObject' done
+12.05.20 16:14:02.048		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: Link
+								Category: Link
+								Controller.Name: DevExpress.ExpressApp.SystemModule.LinkUnlinkController
+								Context.Name: Roles
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyRole(cef8947f-5e6a-484a-8143-8d45438a803c)
+
+12.05.20 16:14:03.977	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:14:03.979		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: DialogCancel
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.SystemModule.LinkDialogController
+								Context.Name: Role
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyRole(c24bf855-055c-4af7-8fd3-80fa1956024c)
+
+12.05.20 16:14:03.984	Window closing: Role
+12.05.20 16:14:03.986	Action 'DialogCancel' done
+12.05.20 16:14:03.988	Window closed: Role
+12.05.20 16:14:42.899	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:14:42.900		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:14:42.901		SelectedItem: Equipment
+12.05.20 16:14:43.031	Action 'ShowNavigationItem' done
+12.05.20 16:14:44.775	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:14:44.777		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:14:44.778		SelectedItem: Failure
+12.05.20 16:14:44.907	Action 'ShowNavigationItem' done
+12.05.20 16:14:45.467	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:14:45.468		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:14:45.469		SelectedItem: Work Order
+12.05.20 16:14:45.598	Action 'ShowNavigationItem' done
+12.05.20 16:14:46.034	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:14:46.036		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:14:46.037		SelectedItem: Equipment
+12.05.20 16:14:46.155	Action 'ShowNavigationItem' done
+12.05.20 16:15:53.391	Window closing: Equipment
+12.05.20 16:15:53.398	Window closed: Equipment
+12.05.20 16:15:53.939	Window closing: Equipment
+12.05.20 16:15:53.941	Window closed: Equipment
+12.05.20 16:15:54.774	Window closing: Failure
+12.05.20 16:15:54.780	Window closed: Failure
+12.05.20 16:15:55.383	Window closing: Failure
+12.05.20 16:15:55.387	Window closed: Failure
+12.05.20 16:15:56.180	Window closing: Work Order
+12.05.20 16:15:56.185	Window closed: Work Order
+12.05.20 16:15:56.986	Window closing: Work Order
+12.05.20 16:15:56.988	Window closed: Work Order
+12.05.20 16:15:58.268	Window closing: User
+12.05.20 16:15:58.271	Window closed: User
+12.05.20 16:15:59.279	Window closing: DESKTOP-K2J4GPG\Matas - User
+12.05.20 16:15:59.282	Window closed: DESKTOP-K2J4GPG\Matas - User
+12.05.20 16:16:00.283	Window closing: Role
+12.05.20 16:16:00.286	Window closed: Role
+12.05.20 16:16:01.622	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:16:01.624		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:16:01.625		SelectedItem: Equipment
+12.05.20 16:16:01.816	Action 'ShowNavigationItem' done
+12.05.20 16:16:13.159	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:16:13.160		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:16:13.162		SelectedItem: Failure
+12.05.20 16:16:13.387	Action 'ShowNavigationItem' done
+12.05.20 16:16:18.444	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:16:18.445		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:16:18.446		SelectedItem: Work Order
+12.05.20 16:16:18.671	Action 'ShowNavigationItem' done
+12.05.20 16:16:25.119	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:16:25.120		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:16:25.121		SelectedItem: Failure
+12.05.20 16:16:25.257	Action 'ShowNavigationItem' done
+12.05.20 16:16:55.204	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:16:55.205		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:16:55.206		SelectedItem: Equipment
+12.05.20 16:16:55.334	Action 'ShowNavigationItem' done
+12.05.20 16:18:03.593	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:18:03.595		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(c1a2f081-bdc8-404c-97e6-838eccc9e3a7)
+
+12.05.20 16:18:03.930	Action 'ListViewShowObject' done
+12.05.20 16:22:09.095	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:22:09.096		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:22:09.098		SelectedItem: Equipment
+12.05.20 16:22:09.189	Action 'ShowNavigationItem' done
+12.05.20 16:23:16.580	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:23:16.582		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:23:16.583		SelectedItem: Failure
+12.05.20 16:23:16.697	Action 'ShowNavigationItem' done
+12.05.20 16:23:20.346	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:23:20.349		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:23:20.350		SelectedItem: Equipment
+12.05.20 16:23:20.468	Action 'ShowNavigationItem' done
+12.05.20 16:23:21.337	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:23:21.339		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:23:21.340		SelectedItem: Failure
+12.05.20 16:23:21.466	Action 'ShowNavigationItem' done
+12.05.20 16:23:25.537	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:23:25.539		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:23:25.541		SelectedItem: Work Order
+12.05.20 16:23:25.656	Action 'ShowNavigationItem' done
+12.05.20 16:23:28.314	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:23:28.315		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:23:28.316		SelectedItem: Equipment
+12.05.20 16:23:28.433	Action 'ShowNavigationItem' done
+12.05.20 16:24:36.567	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:24:36.569		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(c1a2f081-bdc8-404c-97e6-838eccc9e3a7)
+
+12.05.20 16:24:36.580	Action 'Refresh' done
+12.05.20 16:25:12.530	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:25:12.531		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:25:12.533		SelectedItem: Work Order
+12.05.20 16:25:12.660	Action 'ShowNavigationItem' done
+12.05.20 16:25:18.874	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:25:18.875		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Work Order
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.WorkOrder(cb695e3b-1649-4605-bbb6-bb66b870f35a)
+
+12.05.20 16:25:19.220	Action 'ListViewShowObject' done
+12.05.20 16:28:01.621	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:28:01.622		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:28:01.623		SelectedItem: Equipment
+12.05.20 16:28:01.769	Action 'ShowNavigationItem' done
+12.05.20 16:31:10.204	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:31:10.206		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:31:10.207		SelectedItem: Failure
+12.05.20 16:31:10.320	Action 'ShowNavigationItem' done
+12.05.20 16:31:13.091	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:31:13.093		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:31:13.093		SelectedItem: Equipment
+12.05.20 16:31:13.210	Action 'ShowNavigationItem' done
+12.05.20 16:31:18.007	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:31:18.009		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:31:18.010		SelectedItem: Failure
+12.05.20 16:31:18.133	Action 'ShowNavigationItem' done
+12.05.20 16:31:42.821	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:31:42.822		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 16:31:42.823		SelectedItem: Equipment
+12.05.20 16:31:42.954	Action 'ShowNavigationItem' done
+12.05.20 16:31:47.031	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:31:47.033		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(c1a2f081-bdc8-404c-97e6-838eccc9e3a7)
+
+12.05.20 16:31:47.101	Action 'ListViewShowObject' done
+12.05.20 16:33:31.236	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 16:33:31.237		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: OpenObject
+								Category: OpenObject
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.OpenObjectController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(c1a2f081-bdc8-404c-97e6-838eccc9e3a7)
+
+12.05.20 16:33:31.552	Action 'OpenObject' done
+12.05.20 16:33:33.395	Window closing: Drill - Equipment Type
+12.05.20 16:33:33.398	Window closed: Drill - Equipment Type
+12.05.20 16:33:36.079	Window closing: Failure
+12.05.20 16:33:36.083	Window closed: Failure
+12.05.20 16:33:36.844	Window closing: Work Order
+12.05.20 16:33:36.848	Window closed: Work Order
+12.05.20 16:33:37.347	Window closing: Equipment
+12.05.20 16:33:37.352	Window closed: Equipment
+12.05.20 16:33:37.985	Window closing: Work Order
+12.05.20 16:33:37.987	Window closed: Work Order
+12.05.20 16:55:33.157	Window closing: Equipment
+12.05.20 16:55:33.160	Window closing: Equipment - XAFas
+12.05.20 16:55:33.184	Window closed: Equipment
+12.05.20 16:55:33.187	Window closed: Equipment - XAFas
+12.05.20 16:55:33.375	Save model changes
+===================
+12.05.20 16:55:33.404	Save model changes
+===================
+12.05.20 16:55:33.422	--------------------------------------------------------------------------------
+							Logoff completed
+
+12.05.20 16:55:33.427	Application stopping
+=====================
+12.05.20 17:10:32.782	================================================================================
+12.05.20 17:10:32.786	Trace Log for XAFas.Win.exe is started
+12.05.20 17:10:32.786	================================================================================
+12.05.20 17:10:32.788	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 19.2.5.0
+	eXpressApp File Version: 19.2.5.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+
+12.05.20 17:10:32.890	Initialize application
+=======================
+12.05.20 17:10:32.892		Command line arguments: 
+		C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\XAFas.Win.exe
+12.05.20 17:10:32.969	Resolve the 'DevExpress.ExpressApp.Security.Xpo.v19.2' assembly
+12.05.20 17:10:32.970	Resolve the 'DevExpress.ExpressApp.Security.Xpo.v19.2' assembly
+12.05.20 17:10:34.160	The ValueManagerType is initialized by the default value: SimpleValueManager.
+12.05.20 17:10:34.173	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.Xpo.InMemoryDataStoreProvider..cctor()
+   at DevExpress.ExpressApp.Xpo.XPObjectSpaceProvider.GetDataStoreProvider(String connectionString, IDbConnection connection, Boolean enablePoolingInConnectionString)
+   at XAFas.Win.XAFasWindowsFormsApplication.CreateDefaultObjectSpaceProvider(CreateCustomObjectSpaceProviderEventArgs args) in C:\Users\Matas\source\repos\XAFas\XAFas.Win\WinApplication.cs:line 32
+   at DevExpress.ExpressApp.XafApplication.CreateObjectSpaceProviders(String connectionString)
+   at DevExpress.ExpressApp.XafApplication.Setup()
+   at XAFas.Win.Program.Main() in C:\Users\Matas\source\repos\XAFas\XAFas.Win\Program.cs:line 50
+
+12.05.20 17:10:34.233	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+12.05.20 17:10:34.235	--------------------------------------------------------------------------------
+							
+
+12.05.20 17:10:34.269	Resolve the 'DevExpress.BonusSkins.v19.2' assembly
+12.05.20 17:10:34.278	Resolve the 'DevExpress.BonusSkins.v19.2, Version=19.2.5.0' assembly
+12.05.20 17:10:34.293	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.Data.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.Data.v19.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v19.2.dll
+	DevExpress.ExpressApp.Objects.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v19.2.dll
+	DevExpress.ExpressApp.Security.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v19.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v19.2.dll
+	DevExpress.ExpressApp.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.v19.2.dll
+	DevExpress.ExpressApp.Validation.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v19.2.dll
+	DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v19.2.dll
+	DevExpress.ExpressApp.Xpo.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v19.2.dll
+	DevExpress.Persistent.Base.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.Persistent.Base.v19.2.dll
+	DevExpress.Persistent.BaseImpl.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v19.2.dll
+	DevExpress.Printing.v19.2.Core, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v19.2.Core\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.Printing.v19.2.Core.dll
+	DevExpress.Utils.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.Utils.v19.2.dll
+	DevExpress.Xpo.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.Xpo.v19.2.dll
+	DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.XtraBars.v19.2.dll
+	DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.XtraEditors.v19.2.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	XAFas.Module, Version=1.0.7434.6135, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\XAFas.Module.dll
+	XAFas.Module.Win, Version=1.0.7434.6135, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\XAFas.Module.Win.dll
+	XAFas.Win, Version=1.0.7437.28177, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\XAFas.Win.exe
+12.05.20 17:10:34.607	SetupModules
+12.05.20 17:10:34.889	Customize TypesInfo
+12.05.20 17:10:37.691		preferredLanguageName: (User language)
+								userLanguageName: en-US
+
+12.05.20 17:10:37.694		preferredLanguageName: (User language)
+								userFormattingCultureName: en-US
+								selectedFormattingCultureName: 
+
+12.05.20 17:10:37.843	--------------------------------------------------------------------------------
+							Start logon process
+
+12.05.20 17:10:37.858	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+12.05.20 17:10:37.861		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(local);Initial Catalog=XAFas;XpoDataStorePool=True;
+12.05.20 17:10:37.863		ConnectionString: 
+12.05.20 17:10:38.119	--------------------------------------------------------------------------------
+							UpdateDB
+
+12.05.20 17:10:38.149		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(local);Initial Catalog=XAFas;XpoDataStorePool=True;
+12.05.20 17:10:38.400	--------------------------------------------------------------------------------
+							Logon successful
+
+12.05.20 17:10:38.407	--------------------------------------------------------------------------------
+							Logon completed
+
+12.05.20 17:10:38.422		startUpActions: 1
+12.05.20 17:10:38.474	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+12.05.20 17:10:38.597	Generate default Model for Action containers
+12.05.20 17:10:39.377	Resolve the 'DevExpress.ExpressApp.Win.v19.2.XmlSerializers, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+12.05.20 17:10:39.383	Resolve the 'DevExpress.ExpressApp.Win.v19.2.XmlSerializers, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+12.05.20 17:10:41.316	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:10:41.318		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+12.05.20 17:10:41.321	Action 'ConfigureSkin' done
+12.05.20 17:10:41.375	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:10:41.377		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+12.05.20 17:10:41.378	Action 'ConfigureSkin' done
+12.05.20 17:10:42.167	Application startup done
+=========================
+12.05.20 17:10:42.169	Application running
+====================
+12.05.20 17:10:47.154	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:10:47.157		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 17:10:47.160		SelectedItem: Failure
+12.05.20 17:10:47.394	Action 'ShowNavigationItem' done
+12.05.20 17:10:47.435	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:10:47.436		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 17:10:47.438		SelectedItem: Failure
+12.05.20 17:10:47.444	Action 'ShowNavigationItem' done
+12.05.20 17:10:53.260	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:10:53.262		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 17:10:53.263		SelectedItem: Equipment
+12.05.20 17:10:53.373	Action 'ShowNavigationItem' done
+12.05.20 17:10:56.523	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:10:56.527		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Delete
+								Category: Edit
+								Controller.Name: DevExpress.ExpressApp.SystemModule.DeleteObjectsViewController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(059f4354-5793-4433-a9e4-d079f5d1258e)
+
+12.05.20 17:10:56.769	Action 'Delete' done
+12.05.20 17:10:57.950	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:10:57.952		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 17:10:57.953		SelectedItem: Failure
+12.05.20 17:10:58.063	Action 'ShowNavigationItem' done
+12.05.20 17:10:59.630	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:10:59.632		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:10:59.653	Action 'Refresh' done
+12.05.20 17:11:00.397	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:11:00.398		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:11:00.410	Action 'Refresh' done
+12.05.20 17:11:01.589	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:11:01.590		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:11:01.600	Action 'Refresh' done
+12.05.20 17:11:01.751	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:11:01.753		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:11:01.760	Action 'Refresh' done
+12.05.20 17:11:02.030	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:11:02.031		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:11:02.038	Action 'Refresh' done
+12.05.20 17:11:03.587	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:11:03.588		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:11:03.997	Action 'ListViewShowObject' done
+12.05.20 17:11:14.256	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:11:14.257		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:11:14.382	Action 'Refresh' done
+12.05.20 17:11:15.044	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:11:15.046		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:11:15.054	Action 'Refresh' done
+12.05.20 17:11:15.159	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:11:15.161		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:11:15.170	Action 'Refresh' done
+12.05.20 17:11:15.414	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:11:15.416		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:11:15.424	Action 'Refresh' done
+12.05.20 17:11:15.604	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:11:15.608		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:11:15.632	Action 'Refresh' done
+12.05.20 17:11:26.521	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:11:26.522		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 17:11:26.523		SelectedItem: Equipment
+12.05.20 17:11:26.641	Action 'ShowNavigationItem' done
+12.05.20 17:11:28.293	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:11:28.295		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(c1a2f081-bdc8-404c-97e6-838eccc9e3a7)
+
+12.05.20 17:11:28.301	Action 'Refresh' done
+12.05.20 17:11:30.442	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:11:30.443		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 17:11:30.444		SelectedItem: Failure
+12.05.20 17:11:30.542	Action 'ShowNavigationItem' done
+12.05.20 17:11:41.285	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:11:41.287		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:11:41.343	Action 'ListViewShowObject' done
+12.05.20 17:12:13.014	'Equipment' property editor: new value is ''
+12.05.20 17:12:13.092	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:12:13.094		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 17:12:13.096		SelectedItem: Equipment
+12.05.20 17:12:13.211	Action 'ShowNavigationItem' done
+12.05.20 17:12:26.157	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:12:26.159		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 17:12:26.161		SelectedItem: Failure
+12.05.20 17:12:26.266	Action 'ShowNavigationItem' done
+12.05.20 17:12:50.568	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:12:50.569		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 17:12:50.571		SelectedItem: Failure
+12.05.20 17:12:50.575	Action 'ShowNavigationItem' done
+12.05.20 17:12:50.817	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:12:50.819		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 17:12:50.820		SelectedItem: Failure
+12.05.20 17:12:50.823	Action 'ShowNavigationItem' done
+12.05.20 17:12:52.340	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:12:52.341		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:12:52.398	Action 'ListViewShowObject' done
+12.05.20 17:12:54.180	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:12:54.181		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 17:12:54.183		SelectedItem: Failure
+12.05.20 17:12:54.231	Action 'ShowNavigationItem' done
+12.05.20 17:12:55.324	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:12:55.325		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:12:55.333	Action 'Refresh' done
+12.05.20 17:12:55.968	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:12:55.969		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:12:55.979	Action 'Refresh' done
+12.05.20 17:12:56.078	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:12:56.079		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:12:56.087	Action 'Refresh' done
+12.05.20 17:12:56.346	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:12:56.347		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:12:56.353	Action 'Refresh' done
+12.05.20 17:12:56.457	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:12:56.459		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:12:56.476	Action 'Refresh' done
+12.05.20 17:12:56.711	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:12:56.712		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:12:56.719	Action 'Refresh' done
+12.05.20 17:12:56.824	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:12:56.825		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:12:56.832	Action 'Refresh' done
+12.05.20 17:12:57.089	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:12:57.090		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:12:57.097	Action 'Refresh' done
+12.05.20 17:12:57.181	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:12:57.182		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:12:57.190	Action 'Refresh' done
+12.05.20 17:12:57.456	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:12:57.457		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:12:57.466	Action 'Refresh' done
+12.05.20 17:12:59.668	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:12:59.670		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:12:59.729	Action 'ListViewShowObject' done
+12.05.20 17:13:01.196	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:13:01.197		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:13:01.200	ConfirmationRequest: NeedSaveChanges
+12.05.20 17:13:01.201		DefaultConfirmationResult: No
+12.05.20 17:13:03.639		UserConfirmationResult: No
+12.05.20 17:13:03.650	Action 'Refresh' done
+12.05.20 17:13:04.739	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:13:04.741		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:13:04.749	Action 'Refresh' done
+12.05.20 17:13:16.223	'Equipment' property editor: new value is ''
+12.05.20 17:13:16.302	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:13:16.304		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 17:13:16.306		SelectedItem: Equipment
+12.05.20 17:13:16.417	Action 'ShowNavigationItem' done
+12.05.20 17:13:23.958	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:13:23.960		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 17:13:23.961		SelectedItem: Failure
+12.05.20 17:13:24.067	Action 'ShowNavigationItem' done
+12.05.20 17:14:21.787	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:14:21.788		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 17:14:21.790		SelectedItem: Equipment
+12.05.20 17:14:21.898	Action 'ShowNavigationItem' done
+12.05.20 17:14:22.736	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:14:22.737		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 17:14:22.739		SelectedItem: Failure
+12.05.20 17:14:22.841	Action 'ShowNavigationItem' done
+12.05.20 17:14:23.641	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:14:23.643		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 17:14:23.645		SelectedItem: Work Order
+12.05.20 17:14:23.819	Action 'ShowNavigationItem' done
+12.05.20 17:14:24.165	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:14:24.167		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 17:14:24.168		SelectedItem: Failure
+12.05.20 17:14:24.295	Action 'ShowNavigationItem' done
+12.05.20 17:14:24.560	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:14:24.562		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 17:14:24.563		SelectedItem: Equipment
+12.05.20 17:14:24.661	Action 'ShowNavigationItem' done
+12.05.20 17:14:26.029	Window closing: Equipment
+12.05.20 17:14:26.035	Window closing: Failure
+12.05.20 17:14:26.037	Window closing: Failure
+12.05.20 17:14:26.165	ConfirmationRequest: NeedSaveChanges
+12.05.20 17:14:26.167		DefaultConfirmationResult: No
+12.05.20 17:14:29.950		UserConfirmationResult: Cancel
+12.05.20 17:14:29.952	Window closing: Failure - XAFas
+12.05.20 17:14:31.370	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:14:31.372		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:14:31.373	ConfirmationRequest: NeedSaveChanges
+12.05.20 17:14:31.374		DefaultConfirmationResult: No
+12.05.20 17:14:33.042		UserConfirmationResult: No
+12.05.20 17:14:33.053	Action 'Refresh' done
+12.05.20 17:14:34.110	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:14:34.112		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:14:34.119	Action 'Refresh' done
+12.05.20 17:14:41.469	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:14:41.470		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 17:14:41.472		SelectedItem: Work Order
+12.05.20 17:14:41.575	Action 'ShowNavigationItem' done
+12.05.20 17:14:46.437	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:14:46.439		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Work Order
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.WorkOrder(583faf0d-44d8-4587-8dba-f796d621e7e9)
+
+12.05.20 17:14:46.440		SelectedItem: Work Order
+12.05.20 17:14:46.716	Action 'New' done
+12.05.20 17:14:48.818		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: Link
+								Category: Link
+								Controller.Name: DevExpress.ExpressApp.SystemModule.LinkUnlinkController
+								Context.Name: Failures
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 0
+								Context.CurrentObject: <not specified>
+
+12.05.20 17:14:53.630	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:14:53.632		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: DialogOK
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.SystemModule.LinkDialogController
+								Context.Name: Failure
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:14:53.633	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:14:53.635		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: Link
+								Category: Link
+								Controller.Name: DevExpress.ExpressApp.SystemModule.LinkUnlinkController
+								Context.Name: Failures
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 0
+								Context.CurrentObject: <not specified>
+
+12.05.20 17:14:53.640	Action 'Link' done
+12.05.20 17:14:53.643	Window closing: Failure
+12.05.20 17:14:53.647	Action 'DialogOK' done
+12.05.20 17:14:53.649	Window closed: Failure
+12.05.20 17:15:04.453	'Type' property editor: new value is 'Maintenance'
+12.05.20 17:15:04.457	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:15:04.458		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Save
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Work Order
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.WorkOrder(75e84d6c-2d54-4321-8618-d7f635c9e1aa)
+
+12.05.20 17:15:04.490	Action 'Save' done
+12.05.20 17:15:08.723	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:15:08.724		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: StartWorkAction
+								Category: Unspecified
+								Controller.Name: XAFas.Module.Controllers.StartWorkController
+								Context.Name: Work Order
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.WorkOrder(75e84d6c-2d54-4321-8618-d7f635c9e1aa)
+
+12.05.20 17:15:08.730	Action 'StartWorkAction' done
+12.05.20 17:15:12.572		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: FinishWorkAction
+								Category: View
+								Controller.Name: XAFas.Module.Controllers.FinishWorkController
+								Context.Name: Work Order
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.WorkOrder(75e84d6c-2d54-4321-8618-d7f635c9e1aa)
+
+12.05.20 17:15:15.930	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:15:15.931		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: DialogOK
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.SystemModule.DialogController
+								Context.Name: Fixed Failure List
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.FixedFailureList
+
+12.05.20 17:15:15.932	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:15:15.933		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: FinishWorkAction
+								Category: View
+								Controller.Name: XAFas.Module.Controllers.FinishWorkController
+								Context.Name: Work Order
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.WorkOrder(75e84d6c-2d54-4321-8618-d7f635c9e1aa)
+
+12.05.20 17:15:15.936	Action 'FinishWorkAction' done
+12.05.20 17:15:15.938	Window closing: Fixed Failure List
+12.05.20 17:15:15.940	ConfirmationRequest: NeedSaveChanges
+12.05.20 17:15:15.941		DefaultConfirmationResult: No
+12.05.20 17:15:17.097		UserConfirmationResult: Yes
+12.05.20 17:15:17.109	Action 'DialogOK' done
+12.05.20 17:15:17.111	Window closed: Fixed Failure List
+12.05.20 17:15:24.907	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:15:24.908		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Delete
+								Category: Edit
+								Controller.Name: DevExpress.ExpressApp.SystemModule.DeleteObjectsViewController
+								Context.Name: Failures
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(edfbc17b-5b21-4da1-8067-d4522bbf01d3)
+
+12.05.20 17:15:24.914	Action 'Delete' done
+12.05.20 17:15:25.937	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:15:25.939		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 17:15:25.940		SelectedItem: Equipment
+12.05.20 17:15:26.057	Action 'ShowNavigationItem' done
+12.05.20 17:15:26.515	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:15:26.516		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 17:15:26.517		SelectedItem: Failure
+12.05.20 17:15:26.623	Action 'ShowNavigationItem' done
+12.05.20 17:15:27.336	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:15:27.337		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 17:15:27.338		SelectedItem: Equipment
+12.05.20 17:15:27.441	Action 'ShowNavigationItem' done
+12.05.20 17:15:28.263	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:15:28.265		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 17:15:28.266		SelectedItem: Failure
+12.05.20 17:15:28.382	Action 'ShowNavigationItem' done
+12.05.20 17:15:35.276	--------------------------------------------------------------------------------
+							Execute action
+
+12.05.20 17:15:35.277		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+12.05.20 17:15:35.278		SelectedItem: Equipment
+12.05.20 17:15:35.388	Action 'ShowNavigationItem' done
+12.05.20 17:16:17.413	Window closing: Equipment
+12.05.20 17:16:17.415	Window closing: Failure
+12.05.20 17:16:17.417	Window closing: Failure
+12.05.20 17:16:17.418	Window closing: Work Order
+12.05.20 17:16:17.420	Window closing: Work Order
+12.05.20 17:16:17.533	ConfirmationRequest: NeedSaveChanges
+12.05.20 17:16:17.535		DefaultConfirmationResult: No
+12.05.20 17:16:19.255		UserConfirmationResult: No
+12.05.20 17:16:19.258	Window closing: Work Order - XAFas
+12.05.20 17:16:19.282	Window closed: Equipment
+12.05.20 17:16:19.286	Window closed: Failure
+12.05.20 17:16:19.288	Window closed: Failure
+12.05.20 17:16:19.292	Window closed: Work Order
+12.05.20 17:16:19.293	Window closed: Work Order
+12.05.20 17:16:19.295	Window closed: Work Order - XAFas
+12.05.20 17:16:19.666	Save model changes
+===================
+12.05.20 17:16:19.686	Save model changes
+===================
+12.05.20 17:16:19.701	--------------------------------------------------------------------------------
+							Logoff completed
+
+12.05.20 17:16:19.707	Application stopping
+=====================
+13.05.20 00:47:51.875	================================================================================
+13.05.20 00:47:51.879	Trace Log for XAFas.Win.exe is started
+13.05.20 00:47:51.880	================================================================================
+13.05.20 00:47:51.882	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 19.2.5.0
+	eXpressApp File Version: 19.2.5.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+
+13.05.20 00:47:51.973	Initialize application
+=======================
+13.05.20 00:47:51.975		Command line arguments: 
+		C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\XAFas.Win.exe
+13.05.20 00:47:52.113	Resolve the 'DevExpress.ExpressApp.Security.Xpo.v19.2' assembly
+13.05.20 00:47:52.115	Resolve the 'DevExpress.ExpressApp.Security.Xpo.v19.2' assembly
+13.05.20 00:47:53.592	The ValueManagerType is initialized by the default value: SimpleValueManager.
+13.05.20 00:47:53.605	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.Xpo.InMemoryDataStoreProvider..cctor()
+   at DevExpress.ExpressApp.Xpo.XPObjectSpaceProvider.GetDataStoreProvider(String connectionString, IDbConnection connection, Boolean enablePoolingInConnectionString)
+   at XAFas.Win.XAFasWindowsFormsApplication.CreateDefaultObjectSpaceProvider(CreateCustomObjectSpaceProviderEventArgs args) in C:\Users\Matas\source\repos\XAFas\XAFas.Win\WinApplication.cs:line 32
+   at DevExpress.ExpressApp.XafApplication.CreateObjectSpaceProviders(String connectionString)
+   at DevExpress.ExpressApp.XafApplication.Setup()
+   at XAFas.Win.Program.Main() in C:\Users\Matas\source\repos\XAFas\XAFas.Win\Program.cs:line 50
+
+13.05.20 00:47:53.650	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+13.05.20 00:47:53.651	--------------------------------------------------------------------------------
+							
+
+13.05.20 00:47:53.673	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.Data.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.Data.v19.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v19.2.dll
+	DevExpress.ExpressApp.Objects.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v19.2.dll
+	DevExpress.ExpressApp.Security.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v19.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v19.2.dll
+	DevExpress.ExpressApp.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.v19.2.dll
+	DevExpress.ExpressApp.Validation.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v19.2.dll
+	DevExpress.ExpressApp.Win.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v19.2.dll
+	DevExpress.ExpressApp.Xpo.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v19.2.dll
+	DevExpress.Persistent.Base.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.Persistent.Base.v19.2.dll
+	DevExpress.Persistent.BaseImpl.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v19.2.dll
+	DevExpress.Printing.v19.2.Core, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v19.2.Core\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.Printing.v19.2.Core.dll
+	DevExpress.Utils.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.Utils.v19.2.dll
+	DevExpress.Xpo.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.Xpo.v19.2.dll
+	DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.XtraBars.v19.2.dll
+	DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v19.2\v4.0_19.2.5.0__b88d1754d700e49a\DevExpress.XtraEditors.v19.2.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	XAFas.Module, Version=1.0.7438.1434, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\XAFas.Module.dll
+	XAFas.Module.Win, Version=1.0.7438.1434, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\XAFas.Module.Win.dll
+	XAFas.Win, Version=1.0.7438.1434, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Matas\source\repos\XAFas\XAFas.Win\bin\Debug\XAFas.Win.exe
+13.05.20 00:47:53.674	Resolve the 'DevExpress.BonusSkins.v19.2' assembly
+13.05.20 00:47:53.676	Resolve the 'DevExpress.BonusSkins.v19.2, Version=19.2.5.0' assembly
+13.05.20 00:47:53.855	SetupModules
+13.05.20 00:47:54.114	Customize TypesInfo
+13.05.20 00:47:56.710		preferredLanguageName: (User language)
+								userLanguageName: en-US
+
+13.05.20 00:47:56.713		preferredLanguageName: (User language)
+								userFormattingCultureName: en-US
+								selectedFormattingCultureName: 
+
+13.05.20 00:47:56.916	--------------------------------------------------------------------------------
+							Start logon process
+
+13.05.20 00:47:56.951	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+13.05.20 00:47:56.957		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(local);Initial Catalog=XAFas;XpoDataStorePool=True;
+13.05.20 00:47:56.961		ConnectionString: 
+13.05.20 00:47:57.291	--------------------------------------------------------------------------------
+							UpdateDB
+
+13.05.20 00:47:57.318		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(local);Initial Catalog=XAFas;XpoDataStorePool=True;
+13.05.20 00:47:57.583	--------------------------------------------------------------------------------
+							Logon successful
+
+13.05.20 00:47:57.597	--------------------------------------------------------------------------------
+							Logon completed
+
+13.05.20 00:47:57.614		startUpActions: 1
+13.05.20 00:47:57.661	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+13.05.20 00:47:57.788	Generate default Model for Action containers
+13.05.20 00:47:58.650	Resolve the 'DevExpress.ExpressApp.Win.v19.2.XmlSerializers, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+13.05.20 00:47:58.654	Resolve the 'DevExpress.ExpressApp.Win.v19.2.XmlSerializers, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+13.05.20 00:48:01.238	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:48:01.241		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+13.05.20 00:48:01.244	Action 'ConfigureSkin' done
+13.05.20 00:48:01.369	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:48:01.371		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+13.05.20 00:48:01.372	Action 'ConfigureSkin' done
+13.05.20 00:48:02.629	Application startup done
+=========================
+13.05.20 00:48:02.630	Application running
+====================
+13.05.20 00:48:05.105	Window closing: Work Order
+13.05.20 00:48:05.138	Window closed: Work Order
+13.05.20 00:48:09.934	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:48:09.936		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+13.05.20 00:48:09.937		SelectedItem: Equipment
+13.05.20 00:48:10.293	Action 'ShowNavigationItem' done
+13.05.20 00:48:10.330	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:48:10.331		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+13.05.20 00:48:10.332		SelectedItem: Equipment
+13.05.20 00:48:10.339	Action 'ShowNavigationItem' done
+13.05.20 00:48:17.384	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:48:17.387		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(c1a2f081-bdc8-404c-97e6-838eccc9e3a7)
+
+13.05.20 00:48:17.388		SelectedItem: Equipment
+13.05.20 00:48:17.729	Action 'New' done
+13.05.20 00:48:19.610	Window closing: Equipment
+13.05.20 00:48:19.615	Window closed: Equipment
+13.05.20 00:48:21.277	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:48:21.279		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(c1a2f081-bdc8-404c-97e6-838eccc9e3a7)
+
+13.05.20 00:48:21.500	Action 'ListViewShowObject' done
+13.05.20 00:48:33.776	'Description' property editor: new value is 'Electric drill'
+13.05.20 00:48:33.782	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:48:33.784		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: SaveAndClose
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(c1a2f081-bdc8-404c-97e6-838eccc9e3a7)
+
+13.05.20 00:48:33.903	Window closing: Equipment
+13.05.20 00:48:33.906	Window closed: Equipment
+13.05.20 00:48:33.966	Action 'SaveAndClose' done
+13.05.20 00:48:38.832	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:48:38.834		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(719e3160-41a3-4c24-89aa-3b30c4695d47)
+
+13.05.20 00:48:39.048	Action 'ListViewShowObject' done
+13.05.20 00:48:52.239	'Description' property editor: new value is 'Electric screwdriver'
+13.05.20 00:48:52.241	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:48:52.243		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: SaveAndClose
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(719e3160-41a3-4c24-89aa-3b30c4695d47)
+
+13.05.20 00:48:52.255	Window closing: Equipment
+13.05.20 00:48:52.257	Window closed: Equipment
+13.05.20 00:48:52.307	Action 'SaveAndClose' done
+13.05.20 00:48:55.684	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:48:55.686		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(719e3160-41a3-4c24-89aa-3b30c4695d47)
+
+13.05.20 00:48:55.688		SelectedItem: Equipment
+13.05.20 00:48:55.897	Action 'New' done
+13.05.20 00:49:00.951	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:49:00.953		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Equipment Type
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.EquipmentType(3585b64c-314b-44ff-965c-0a78350c8c0f)
+
+13.05.20 00:49:01.031	Action 'ListViewShowObject' done
+13.05.20 00:49:15.649	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:49:15.650		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Equipment Type
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.EquipmentType(890830ab-9992-40a2-80ce-6e062474bee3)
+
+13.05.20 00:49:15.652		SelectedItem: Equipment Type
+13.05.20 00:49:40.312	'Name' property editor: new value is 'Workbench'
+13.05.20 00:49:40.320	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:49:40.321		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: SaveAndClose
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Equipment Type
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.EquipmentType(03e2a0b9-5ded-4a24-ac97-24d5a2b92a13)
+
+13.05.20 00:49:40.338	'Type' property editor: new value is 'XAFas.Module.BusinessObjects.EquipmentType(03e2a0b9-5ded-4a24-ac97-24d5a2b92a13)'
+13.05.20 00:49:40.346	Window closing: Workbench - Equipment Type
+13.05.20 00:49:40.352	Action 'SaveAndClose' done
+13.05.20 00:49:40.360	Window closed: Workbench - Equipment Type
+13.05.20 00:49:40.521	Action 'New' done
+13.05.20 00:49:50.860	'Description' property editor: new value is 'workbench'
+13.05.20 00:49:54.765	'UpcopingIspection' property editor: new value is '2020-06-07 00:00:00'
+13.05.20 00:49:58.487	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:49:58.488		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: SaveAndClose
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(8d3af1d5-e903-4cfb-ba79-d01a37d93989)
+
+13.05.20 00:49:58.503	Window closing: Equipment
+13.05.20 00:49:58.506	Window closed: Equipment
+13.05.20 00:49:58.605	Action 'SaveAndClose' done
+13.05.20 00:51:09.885	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:51:09.887		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(c1a2f081-bdc8-404c-97e6-838eccc9e3a7)
+
+13.05.20 00:51:10.106	Action 'ListViewShowObject' done
+13.05.20 00:51:15.405	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:51:15.406		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+13.05.20 00:51:15.408		SelectedItem: Failure
+13.05.20 00:51:15.699	Action 'ShowNavigationItem' done
+13.05.20 00:51:15.837	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:51:15.839		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+13.05.20 00:51:15.841		SelectedItem: Failure
+13.05.20 00:51:15.844	Action 'ShowNavigationItem' done
+13.05.20 00:51:20.959	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:51:20.960		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(92ca843d-4dfe-4fd8-9681-d4bfc4dfe0a9)
+
+13.05.20 00:51:20.961		SelectedItem: Failure
+13.05.20 00:51:21.126	Action 'New' done
+13.05.20 00:51:29.784	'Description' property editor: new value is 'Drill is broken'
+13.05.20 00:51:32.328	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:51:32.330		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Equipment
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(c1a2f081-bdc8-404c-97e6-838eccc9e3a7)
+
+13.05.20 00:51:32.417	Action 'ListViewShowObject' done
+13.05.20 00:51:35.926	'Equipment' property editor: new value is 'XAFas.Module.BusinessObjects.Equipment(c1a2f081-bdc8-404c-97e6-838eccc9e3a7)'
+13.05.20 00:51:35.959	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:51:35.960		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: SaveAndClose
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(adb2d49d-eb25-495b-82e3-74e0e8e966b7)
+
+13.05.20 00:51:35.981	Window closing: Failure
+13.05.20 00:51:35.984	Window closed: Failure
+13.05.20 00:51:36.043	Action 'SaveAndClose' done
+13.05.20 00:51:37.353	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:51:37.354		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+13.05.20 00:51:37.355		SelectedItem: Equipment
+13.05.20 00:51:37.472	Action 'ShowNavigationItem' done
+13.05.20 00:51:38.628	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:51:38.630		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(c1a2f081-bdc8-404c-97e6-838eccc9e3a7)
+
+13.05.20 00:51:38.684	Action 'ListViewShowObject' done
+13.05.20 00:51:45.143	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:51:45.144		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(c1a2f081-bdc8-404c-97e6-838eccc9e3a7)
+
+13.05.20 00:51:45.157	Action 'Refresh' done
+13.05.20 00:51:46.047	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:51:46.047		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(c1a2f081-bdc8-404c-97e6-838eccc9e3a7)
+
+13.05.20 00:51:46.057	Action 'Refresh' done
+13.05.20 00:53:28.662	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:53:28.664		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+13.05.20 00:53:28.665		SelectedItem: Work Order
+13.05.20 00:53:28.782	Action 'ShowNavigationItem' done
+13.05.20 00:53:30.183	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:53:30.183		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Work Order
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.WorkOrder(75e84d6c-2d54-4321-8618-d7f635c9e1aa)
+
+13.05.20 00:53:30.417	Action 'ListViewShowObject' done
+13.05.20 00:53:38.878	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:53:38.880		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Delete
+								Category: Edit
+								Controller.Name: DevExpress.ExpressApp.SystemModule.DeleteObjectsViewController
+								Context.Name: Work Order
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.WorkOrder(75e84d6c-2d54-4321-8618-d7f635c9e1aa)
+
+13.05.20 00:53:39.095	Window closing: Data is displayed in read-only mode because it has been deleted.
+13.05.20 00:53:39.097	Window closed: Data is displayed in read-only mode because it has been deleted.
+13.05.20 00:53:39.214	Action 'Delete' done
+13.05.20 00:53:41.286	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:53:41.287		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Work Order
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.WorkOrder(cb695e3b-1649-4605-bbb6-bb66b870f35a)
+
+13.05.20 00:53:41.532	Action 'ListViewShowObject' done
+13.05.20 00:53:46.439	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:53:46.440		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+13.05.20 00:53:46.441		SelectedItem: Failure
+13.05.20 00:53:46.557	Action 'ShowNavigationItem' done
+13.05.20 00:53:46.861	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:53:46.862		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+13.05.20 00:53:46.863		SelectedItem: Work Order
+13.05.20 00:53:46.968	Action 'ShowNavigationItem' done
+13.05.20 00:53:48.834	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 00:53:48.836		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Work Order
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.WorkOrder(583faf0d-44d8-4587-8dba-f796d621e7e9)
+
+13.05.20 00:53:49.072	Action 'ListViewShowObject' done
+13.05.20 01:22:55.862	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 01:22:55.863		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+13.05.20 01:22:55.864		SelectedItem: Equipment
+13.05.20 01:22:55.986	Action 'ShowNavigationItem' done
+13.05.20 01:22:56.046	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 01:22:56.048		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+13.05.20 01:22:56.049		SelectedItem: Equipment
+13.05.20 01:22:56.052	Action 'ShowNavigationItem' done
+13.05.20 01:23:00.752	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 01:23:00.754		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(8d3af1d5-e903-4cfb-ba79-d01a37d93989)
+
+13.05.20 01:23:00.988	Action 'ListViewShowObject' done
+13.05.20 01:24:16.277	'Description' property editor: new value is 'Testavimo įrenginys'
+13.05.20 01:24:16.280	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 01:24:16.281		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: SaveAndClose
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(8d3af1d5-e903-4cfb-ba79-d01a37d93989)
+
+13.05.20 01:24:16.300	Window closing: Equipment
+13.05.20 01:24:16.303	Window closed: Equipment
+13.05.20 01:24:16.372	Action 'SaveAndClose' done
+13.05.20 01:33:33.693	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 01:33:33.694		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+13.05.20 01:33:33.695		SelectedItem: Failure
+13.05.20 01:33:33.806	Action 'ShowNavigationItem' done
+13.05.20 01:33:36.844	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 01:33:36.846		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(adb2d49d-eb25-495b-82e3-74e0e8e966b7)
+
+13.05.20 01:33:36.847		SelectedItem: Failure
+13.05.20 01:33:37.088	Action 'New' done
+13.05.20 01:34:04.915	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 01:34:04.917		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Equipment
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(8d3af1d5-e903-4cfb-ba79-d01a37d93989)
+
+13.05.20 01:34:05.006	Action 'ListViewShowObject' done
+13.05.20 01:34:15.556	'Equipment' property editor: new value is 'XAFas.Module.BusinessObjects.Equipment(8d3af1d5-e903-4cfb-ba79-d01a37d93989)'
+13.05.20 01:34:33.468	'Description' property editor: new value is 'Testuojamas gedimas'
+13.05.20 01:34:33.471	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 01:34:33.472		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: SaveAndClose
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(66dc9e0b-dd88-4e8d-8085-17c7e9d47eb7)
+
+13.05.20 01:34:33.493	Window closing: Failure
+13.05.20 01:34:33.495	Window closed: Failure
+13.05.20 01:34:33.552	Action 'SaveAndClose' done
+13.05.20 01:47:07.313	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 01:47:07.314		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+13.05.20 01:47:07.315		SelectedItem: Work Order
+13.05.20 01:47:07.429	Action 'ShowNavigationItem' done
+13.05.20 01:47:08.595	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 01:47:08.597		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Work Order
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.WorkOrder(583faf0d-44d8-4587-8dba-f796d621e7e9)
+
+13.05.20 01:47:08.598		SelectedItem: Work Order
+13.05.20 01:47:08.922	Action 'New' done
+13.05.20 01:47:58.967	'Description' property editor: new value is 'Testuojamas darbo užsakymas'
+13.05.20 01:48:02.660	'StartDate' property editor: new value is '2020-05-13 00:00:00'
+13.05.20 01:48:24.972	'EndDate' property editor: new value is '2020-06-03 00:00:00'
+13.05.20 01:48:24.976		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: Link
+								Category: Link
+								Controller.Name: DevExpress.ExpressApp.SystemModule.LinkUnlinkController
+								Context.Name: Failures
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 0
+								Context.CurrentObject: <not specified>
+
+13.05.20 01:48:34.002	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 01:48:34.003		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: DialogOK
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.SystemModule.LinkDialogController
+								Context.Name: Failure
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(66dc9e0b-dd88-4e8d-8085-17c7e9d47eb7)
+
+13.05.20 01:48:34.004	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 01:48:34.005		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: Link
+								Category: Link
+								Controller.Name: DevExpress.ExpressApp.SystemModule.LinkUnlinkController
+								Context.Name: Failures
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 0
+								Context.CurrentObject: <not specified>
+
+13.05.20 01:48:34.008	Action 'Link' done
+13.05.20 01:48:34.010	Window closing: Failure
+13.05.20 01:48:34.013	Action 'DialogOK' done
+13.05.20 01:48:34.014	Window closed: Failure
+13.05.20 01:50:23.130	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 01:50:23.132		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: StartWorkAction
+								Category: Unspecified
+								Controller.Name: XAFas.Module.Controllers.StartWorkController
+								Context.Name: Work Order
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.WorkOrder(4790c725-8eec-44e4-9c72-f5b0ffe441f9)
+
+13.05.20 01:50:23.137	Action 'StartWorkAction' done
+13.05.20 01:53:01.279	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 01:53:01.280		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+13.05.20 01:53:01.281		SelectedItem: Failure
+13.05.20 01:53:01.410	Action 'ShowNavigationItem' done
+13.05.20 01:53:06.489	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 01:53:06.490		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Failure
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Failure(66dc9e0b-dd88-4e8d-8085-17c7e9d47eb7)
+
+13.05.20 01:53:06.502	Action 'Refresh' done
+13.05.20 01:53:14.615	Window closing: Work Order
+13.05.20 01:53:14.618	Window closed: Work Order
+13.05.20 01:53:17.861	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 01:53:17.863		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: SaveAndClose
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Work Order
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.WorkOrder(4790c725-8eec-44e4-9c72-f5b0ffe441f9)
+
+13.05.20 01:53:17.886	Window closing: Work Order
+13.05.20 01:53:17.890	Window closed: Work Order
+13.05.20 01:53:18.015	Action 'SaveAndClose' done
+13.05.20 01:53:20.076	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 01:53:20.078		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+13.05.20 01:53:20.080		SelectedItem: Equipment
+13.05.20 01:53:20.191	Action 'ShowNavigationItem' done
+13.05.20 01:53:21.852	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 01:53:21.853		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Equipment
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.Equipment(8d3af1d5-e903-4cfb-ba79-d01a37d93989)
+
+13.05.20 01:53:21.862	Action 'Refresh' done
+13.05.20 01:54:37.286	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 01:54:37.287		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+13.05.20 01:54:37.289		SelectedItem: Work Order
+13.05.20 01:54:37.392	Action 'ShowNavigationItem' done
+13.05.20 01:54:39.348	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 01:54:39.350		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Work Order
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XAFas.Module.BusinessObjects.WorkOrder(4790c725-8eec-44e4-9c72-f5b0ffe441f9)
+
+13.05.20 01:54:39.586	Action 'ListViewShowObject' done
+13.05.20 01:55:51.597	--------------------------------------------------------------------------------
+							Execute action
+
+13.05.20 01:55:51.598		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+13.05.20 01:55:51.599		SelectedItem: Equipment
+13.05.20 01:55:51.737	Action 'ShowNavigationItem' done
+13.05.20 01:57:33.588	Window closing: Work Order
+13.05.20 01:57:33.589	Window closing: Equipment
+13.05.20 01:57:33.591	Window closing: Equipment
+13.05.20 01:57:33.592	Window closing: Failure
+13.05.20 01:57:33.593	Window closing: Work Order
+13.05.20 01:57:33.594	Window closing: Work Order
+13.05.20 01:57:33.595	Window closing: Equipment - XAFas
+13.05.20 01:57:33.624	Window closed: Work Order
+13.05.20 01:57:33.627	Window closed: Equipment
+13.05.20 01:57:33.629	Window closed: Equipment
+13.05.20 01:57:33.630	Window closed: Failure
+13.05.20 01:57:33.632	Window closed: Work Order
+13.05.20 01:57:33.633	Window closed: Work Order
+13.05.20 01:57:33.634	Window closed: Equipment - XAFas
+13.05.20 01:57:33.979	Save model changes
+===================
+13.05.20 01:57:34.011	Save model changes
+===================
+13.05.20 01:57:34.029	--------------------------------------------------------------------------------
+							Logoff completed
+
+13.05.20 01:57:34.035	Application stopping
+=====================
